@@ -4,6 +4,7 @@ package main
 import (
 	"encoding/json"
 	"fmt"
+	"html/template"
 	"io/ioutil"
 	"net/http"
 	"os"
@@ -79,8 +80,13 @@ func isValidPinCode(s string) bool {
 	return false
 }
 
+func test(w http.ResponseWriter, r *http.Request) {
+	tmpl.Execute(w, constituencies["con-1"])
+}
+
 var pincodes map[string]string
 var constituencies map[string]Constituency
+var tmpl *template.Template
 
 func main() {
 	log.Println("Hello World!")
@@ -101,6 +107,7 @@ func main() {
 		log.Println("parse error")
 		log.Println(err)
 	}
+
 	constituencies = temp.Constituencies
 	byteValue, _ = ioutil.ReadAll(pincodeJSON)
 	err = json.Unmarshal(byteValue, &pincodes)
@@ -110,12 +117,16 @@ func main() {
 
 	}
 
+	tmpl = template.Must(template.ParseFiles("templates/layout.html", "templates/constituency.html"))
+
 	r := mux.NewRouter()
 	r.HandleFunc("/findconstituency", ConstituencyFinder)
 	r.HandleFunc("/getconstituency", getConstituencyDetails)
-
-	//	http.ListenAndServe(":8080", r)
+	r.HandleFunc("/test", test)
+	s := http.StripPrefix("/", http.FileServer(http.Dir("./static/")))
+	r.PathPrefix("/").Handler(s)
 	http.Handle("/", r)
+	//http.ListenAndServe(":8080", r)
 	appengine.Main()
 
 }
