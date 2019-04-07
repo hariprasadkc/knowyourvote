@@ -1,0 +1,40 @@
+:root{
+  --color-white:#FFF;
+  --main-container-bg-color:#F5F5F6;
+  --constituency-card-box-shadow:0px 1px 2px 1px rgba(52, 53, 55, 0.18);
+}
+
+
+html, body {
+  font-family: 'Lato', sans-serif !important;
+}
+
+.body-container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.main-container {
+  background-color: var(--main-container-bg-color);
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.body-section {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.constituency-group__card {
+  box-shadow: var(--constituency-card-box-shadow);
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: var(--color-white);
+  border-color: var(--color-white);
+  transition: border 300ms ease;
+}
+
+.constituency-group__card:hover {
+  border-color: var(--blue);
+}
