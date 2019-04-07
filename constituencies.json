@@ -1,0 +1,156 @@
+{
+    "constituencies": {
+        "con-1": {
+            "id": "con-1",
+            "name": "Chennai North",
+            "areas": [
+                "Royapuram",
+                "Kolathur",
+                "T.V.K.Nagar",
+                "Perambur",
+                "Thiruvottiyur",
+                "Dr. Radhakrishnan Nagar"
+            ],
+            "mp": {
+                "name": "T.G.Venkatesh Babu",
+                "party": "DMK",
+                "link": "https://www.prsindia.org/mptrack/tgvenkateshbabu",
+                "wiki": "https://en.wikipedia.org/wiki/T._G._Venkatesh_Babu"
+            },
+            "candidates": [
+                {
+                    "id": "CN-1",
+                    "name": "R.MOHAN RAJ",
+                    "age": 65,
+                    "qualification": "B.sc. Botany (discontinued)",
+                    "phone": "9994101000",
+                    "assets": "4.2Cr",
+                    "livelihood": "Real Estate Business",
+                    "party": "DMDK"
+                },
+                {
+                    "id": "CN-2",
+                    "name": "KALANITHI VEERASAMI",
+                    "age": 49,
+                    "qualification": "MBBS,MS,M.Ch,FRCS",
+                    "phone": "9884259482",
+                    "assets": "40 Cr",
+                    "livelihood": "Doctor",
+                    "party": "DMK"
+                },
+                {
+                    "id": "CN-3",
+                    "name": "MOURYA G",
+                    "age": 62,
+                    "qualification": "M.Sc Zoology",
+                    "phone": "9498119498",
+                    "assets": "4 Cr",
+                    "livelihood": "Retired IPS Officer",
+                    "party": "MNM"
+                }
+            ]
+        },
+        "con-2": {
+            "id": "con-2",
+            "name": "Chennai Central",
+            "areas": [
+                "Villivakkam",
+                "Egmore",
+                "Harbour",
+                "Chepauk",
+                "Thousand Lights",
+                "Anna Nagar"
+            ],
+            "mp": {
+                "name": "S.R. Vijayakumar",
+                "link": "https://www.prsindia.org/mptrack/srvijayakumar",
+                "wiki": "https://en.wikipedia.org/wiki/S._R._Vijayakumar"
+            },
+            "candidates": [
+                {
+                    "id": "CC-1",
+                    "name": "KAMILA NAZAR",
+                    "age": 54,
+                    "qualification": "M.Sc, M.Phil",
+                    "phone": "9841097209",
+                    "assets": "6.3Cr",
+                    "livelihood": "Film Producer",
+                    "party": "MNM"
+                },
+                {
+                    "id": "CC-2",
+                    "name": "DAYANIDHI MAARAN",
+                    "age": 52,
+                    "qualification": "B.A. Economics",
+                    "phone": "9884259482",
+                    "assets": "6.75 Cr",
+                    "livelihood": "Salaried",
+                    "party": "DMK"
+                },
+                {
+                    "id": "CC-3",
+                    "name": "R KARTHIKEYAN",
+                    "age": 31,
+                    "qualification": "MDS",
+                    "phone": "9003060286",
+                    "assets": "1.8 Cr",
+                    "livelihood": "Dentist",
+                    "party": "Naam Tamilar Katchi"
+                }
+            ]
+        },
+        "con-3": {
+            "id": "con-3",
+            "name": "Chennai South",
+            "areas": [
+                "T.Nagar",
+                "Triplicane",
+                "Mylapore",
+                "Saidapet",
+                "Alandur",
+                "Tambaram",
+                "Virugambakkam",
+                "Saidapet",
+                "Velachery",
+                "Sholinganallur"
+            ],
+            "mp": {
+                "name": "S.R. Vijayakumar",
+                "link": "https://www.prsindia.org/mptrack/jjayavardhan",
+                "wiki": "https://en.wikipedia.org/wiki/J._Jayavardhan"
+            },
+            "candidates": [
+                {
+                    "id": "CS-1",
+                    "name": "R RANGARAJAN",
+                    "age": 40,
+                    "qualification": "CA",
+                    "phone": "9003279233",
+                    "assets": "2 Cr",
+                    "livelihood": "ex-IAS and Civil Services Trainer",
+                    "party": "MNM"
+                },
+                {
+                    "id": "CS-2",
+                    "name": "A.J.SHERINE",
+                    "age": 26,
+                    "qualification": "M.Sc Mathematics",
+                    "phone": "04422236775",
+                    "assets": "34 Lakhs",
+                    "livelihood": "-",
+                    "party": "Naam Tamilar Katchi"
+                },
+                {
+                    "id": "CS-3",
+                    "name": "Sumathi T (a) Thamizhachi Thangapandian",
+                    "age": 31,
+                    "qualification": "PhD",
+                    "phone": "9841208151",
+                    "assets": "8 Cr",
+                    "livelihood": "Writer",
+                    "party": "DMK"
+                }
+            ]
+        }
+    }
+}
