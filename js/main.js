@@ -1,14 +1,20 @@
 $(document).ready(function() {
     $("#pincodeSubmit").click(function() {
-        $("#pincodeResult").empty();
+        //$("#pincodeResult").empty();
         var pincode = $("#pincodeInput").val();
+        var pinlength = $("#pincodeInput").val().length;
 
-        $.ajax({
-            url: 'http://knowyourvote.appspot.com/findconstituency?pincode=' + pincode,
-            type: 'get',
-            success: function(data) {
-                $("#pincodeResult").html(data);
-            }
-        });
-        });
+        if (pinlength == 6) {
+            $.ajax({
+                url: 'http://knowyourvote.appspot.com/findconstituency?pincode=' + pincode,
+                type: 'get',
+                success: function(data) {
+                    $("#pincodeResult").html(data);
+                }
+            });
+        } else {
+            var errorMsg = "<div class=\"alert alert-danger mx-auto px-5\" role=\"alert\">Enter a valid pincode</div>"
+            $("#pincodeResult").html(errorMsg);
+        }
+    });
 });
