@@ -1,0 +1,20 @@
+<div class="card-box">
+    <div class="table-responsive w-100 d-block">
+        <table class="table table-bordered mb-0">
+            <tbody>
+                <thead class="thead-light">
+                    <tr>
+                        <th class="text-nowrap" scope="col">Area</th>
+                        <th class="text-nowrap" scope="col">Constituency</th>
+                    </tr>
+                </thead>
+                {{range .}}
+                <tr>
+                    <td class="text-nowrap w-25">{{.Area}}</td>
+                    <td class="text-nowrap">{{.Constituency}}</td>
+                </tr>
+                {{end}}
+            </tbody>
+        </table>
+    </div>
+</div>

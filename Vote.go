@@ -46,16 +46,49 @@ type Constituencies struct {
 	Constituencies map[string]Constituency
 }
 
+type NetaMapping struct {
+	Area         string `json:"assembly_constituency_name"`
+	Constituency string `json:"parliament_constituency_name"`
+}
+
+type Pincode struct {
+	Data struct {
+		Constituencies []NetaMapping
+	}
+}
+
+//func ConstituencyFinder(w http.ResponseWriter, r *http.Request) {
+//	keys := r.URL.Query()
+//	pincode := keys.Get("pincode")
+//	if isValidPinCode(pincode) {
+//		if result, ok := pincodes[pincode]; ok {
+//			responseString := string(result)
+//			fmt.Fprint(w, responseString)
+//		}
+//	}
+//}
+
 func ConstituencyFinder(w http.ResponseWriter, r *http.Request) {
 	keys := r.URL.Query()
 	pincode := keys.Get("pincode")
 	if isValidPinCode(pincode) {
-		if result, ok := pincodes[pincode]; ok {
-			log.Println("allclear")
-			responseString := string(result)
-			fmt.Fprint(w, responseString)
+		resp, err := http.Get("https://api.neta-app.com/v2/constituencies/postal_code?pin=" + pincode)
+		if err == nil {
+			body, err := ioutil.ReadAll(resp.Body)
+			resp.Body.Close()
+			if err == nil {
+				test := Pincode{}
+				err = json.Unmarshal(body, &test)
+				if err == nil {
+					if len(test.Data.Constituencies) > 0 {
+						fmt.Println(test.Data.Constituencies)
+						pintmpl.Execute(w, test.Data.Constituencies)
+					}
+				}
+			}
 		}
 	}
+	pinerror.Execute(w, "")
 }
 
 func getConstituencyDetails(w http.ResponseWriter, r *http.Request) {
@@ -87,6 +120,8 @@ func test(w http.ResponseWriter, r *http.Request) {
 var pincodes map[string]string
 var constituencies map[string]Constituency
 var tmpl *template.Template
+var pintmpl *template.Template
+var pinerror *template.Template
 
 func main() {
 	log.Println("Hello World!")
@@ -118,7 +153,8 @@ func main() {
 	}
 
 	tmpl = template.Must(template.ParseFiles("templates/layout.html", "templates/constituency.html"))
-
+	pintmpl = template.Must(template.ParseFiles("templates/pintable.html"))
+	pinerror = template.Must(template.ParseFiles("templates/pinalert.html"))
 	r := mux.NewRouter()
 	r.HandleFunc("/findconstituency", ConstituencyFinder)
 	r.HandleFunc("/getconstituency", getConstituencyDetails)
@@ -126,7 +162,7 @@ func main() {
 	s := http.StripPrefix("/", http.FileServer(http.Dir("./static/")))
 	r.PathPrefix("/").Handler(s)
 	http.Handle("/", r)
-	//http.ListenAndServe(":8080", r)
+	//	http.ListenAndServe(":8080", r)
 	appengine.Main()
 
 }
