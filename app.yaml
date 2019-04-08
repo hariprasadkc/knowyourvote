@@ -17,6 +17,18 @@ api_version: go1
 
 handlers:
 
+# If the path is empty, show static index.html file
+- url: /
+  static_files: index.html
+  upload: index.html
+
+# Otherwise, find file in static directory
+- url: /js
+  static_dir: js
+
+- url: /css
+  static_dir: css
+
 # All URLs are handled by the Go application script
 - url: /.*
   script: _go_app
