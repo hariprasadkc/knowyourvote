@@ -10,10 +10,10 @@ import (
 	"os"
 	"strconv"
 
-	"log"
-
 	"github.com/gorilla/mux"
 	"google.golang.org/appengine"
+	"google.golang.org/appengine/log"
+	"google.golang.org/appengine/urlfetch"
 )
 
 type MP struct {
@@ -69,10 +69,13 @@ type Pincode struct {
 //}
 
 func ConstituencyFinder(w http.ResponseWriter, r *http.Request) {
+	ctx := appengine.NewContext(r)
+	client := urlfetch.Client(ctx)
+
 	keys := r.URL.Query()
 	pincode := keys.Get("pincode")
 	if isValidPinCode(pincode) {
-		resp, err := http.Get("https://api.neta-app.com/v2/constituencies/postal_code?pin=" + pincode)
+		resp, err := client.Get("https://api.neta-app.com/v2/constituencies/postal_code?pin=" + pincode)
 		if err == nil {
 			body, err := ioutil.ReadAll(resp.Body)
 			resp.Body.Close()
@@ -81,12 +84,14 @@ func ConstituencyFinder(w http.ResponseWriter, r *http.Request) {
 				err = json.Unmarshal(body, &test)
 				if err == nil {
 					if len(test.Data.Constituencies) > 0 {
-						fmt.Println(test.Data.Constituencies)
 						pintmpl.Execute(w, test.Data.Constituencies)
+						log.Debugf(ctx, "Response success : ")
+						return
 					}
 				}
 			}
 		}
+		log.Debugf(ctx, "Response failure : "+err.Error())
 	}
 	pinerror.Execute(w, "")
 }
@@ -95,10 +100,10 @@ func getConstituencyDetails(w http.ResponseWriter, r *http.Request) {
 	keys := r.URL.Query()
 	constituency := keys.Get("constituency")
 	if result, ok := constituencies[constituency]; ok {
-		log.Println("allclear")
+		//		log.Println("allclear")
 		response, err := json.Marshal(result)
 		if err != nil {
-			log.Println(err)
+			//			log.Println(err)
 			return
 		}
 		fmt.Fprint(w, string(response))
@@ -124,32 +129,29 @@ var pintmpl *template.Template
 var pinerror *template.Template
 
 func main() {
-	log.Println("Hello World!")
+	//	log.Println("Hello World!")
 	constituencyJSON, err := os.Open("constituencies.json")
 	pincodeJSON, err := os.Open("pincode.json")
 
 	if err != nil {
-		log.Println(err)
+		//		log.Println(err)
 	}
 
-	log.Println("Successfully Opened constituencies.json")
+	//	log.Println("Successfully Opened constituencies.json")
 	defer constituencyJSON.Close()
 
 	byteValue, _ := ioutil.ReadAll(constituencyJSON)
 	var temp Constituencies
 	err = json.Unmarshal(byteValue, &temp)
 	if err != nil {
-		log.Println("parse error")
-		log.Println(err)
+		//		log.Println(err)
 	}
 
 	constituencies = temp.Constituencies
 	byteValue, _ = ioutil.ReadAll(pincodeJSON)
 	err = json.Unmarshal(byteValue, &pincodes)
 	if err != nil {
-		log.Println("parse error")
-		log.Println(err)
-
+		//		log.Println(err)
 	}
 
 	tmpl = template.Must(template.ParseFiles("templates/layout.html", "templates/constituency.html"))
