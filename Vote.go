@@ -11,7 +11,6 @@ import (
 
 	"github.com/gorilla/mux"
 	"google.golang.org/appengine"
-	"google.golang.org/appengine/log"
 	"google.golang.org/appengine/urlfetch"
 )
 
