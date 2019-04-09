@@ -3,7 +3,6 @@ package main
 
 import (
 	"encoding/json"
-	"fmt"
 	"html/template"
 	"io/ioutil"
 	"net/http"
@@ -83,15 +82,15 @@ func ConstituencyFinder(w http.ResponseWriter, r *http.Request) {
 				test := Pincode{}
 				err = json.Unmarshal(body, &test)
 				if err == nil {
-					if len(test.Data.Constituencies) > 0 {
-						pintmpl.Execute(w, test.Data.Constituencies)
-						log.Debugf(ctx, "Response success : ")
-						return
+					if test.Data.Constituencies != nil {
+						if len(test.Data.Constituencies) > 0 {
+							pintmpl.Execute(w, test.Data.Constituencies)
+							return
+						}
 					}
 				}
 			}
 		}
-		log.Debugf(ctx, "Response failure : "+err.Error())
 	}
 	pinerror.Execute(w, "")
 }
@@ -100,13 +99,7 @@ func getConstituencyDetails(w http.ResponseWriter, r *http.Request) {
 	keys := r.URL.Query()
 	constituency := keys.Get("constituency")
 	if result, ok := constituencies[constituency]; ok {
-		//		log.Println("allclear")
-		response, err := json.Marshal(result)
-		if err != nil {
-			//			log.Println(err)
-			return
-		}
-		fmt.Fprint(w, string(response))
+		tmpl.Execute(w, result)
 	}
 }
 
@@ -129,7 +122,6 @@ var pintmpl *template.Template
 var pinerror *template.Template
 
 func main() {
-	//	log.Println("Hello World!")
 	constituencyJSON, err := os.Open("constituencies.json")
 	pincodeJSON, err := os.Open("pincode.json")
 
