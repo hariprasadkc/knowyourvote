@@ -22,6 +22,10 @@ handlers:
   static_files: index.html
   upload: index.html
 
+- url: /favicon\.ico
+  static_files: favicon.ico
+  upload: favicon\.ico
+
 # Otherwise, find file in static directory
 - url: /js
   static_dir: js

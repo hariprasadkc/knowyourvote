@@ -55,7 +55,7 @@
             {{range $index,$element := .Candidates}}
             <div class="carousel-item {{if eq $index 0}} active {{end}}">
                 <div class="card mx-auto candidate-card">
-                    <img class="candidate-img" src="photos/{{.Id}}" alt="{{.Name}}">
+                    <img class="candidate-img" src="photos/{{.Id}}.jpg" alt="{{.Name}}">
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item text-truncate">Name: {{.Name}}</li>
                         <li class="list-group-item text-truncate">Age: {{.Age}}</li>
