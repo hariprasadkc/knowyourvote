@@ -38,6 +38,10 @@ html, body {
   border-color: var(--blue);
 }
 
+.constituency-card a:hover {
+  text-decoration:none !important;
+}
+
 .card-box {
   background: #FFFFFF;
   box-shadow: var(--card-box-shadow);
