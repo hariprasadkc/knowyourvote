@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $("#pincodeSubmit").click(function() {
-        //$("#pincodeResult").empty();
+        $("#pincodeResult").empty();
         var pincode = $("#pincodeInput").val();
         var pinlength = $("#pincodeInput").val().length;
 
