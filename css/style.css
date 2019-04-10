@@ -115,7 +115,6 @@ background-image: linear-gradient( 0deg,  rgba(6,183,249,1) 11.2%, rgb(0, 123, 2
 
 .profile-header{
     position: relative;
-    /*height: 200px;*/
     padding:1rem;
     text-align: center;
 }
