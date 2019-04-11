@@ -78,21 +78,9 @@ type Pincode struct {
 	}
 }
 
-//func ConstituencyFinder(w http.ResponseWriter, r *http.Request) {
-//	keys := r.URL.Query()
-//	pincode := keys.Get("pincode")
-//	if isValidPinCode(pincode) {
-//		if result, ok := pincodes[pincode]; ok {
-//			responseString := string(result)
-//			fmt.Fprint(w, responseString)
-//		}
-//	}
-//}
-
 func ConstituencyFinder(w http.ResponseWriter, r *http.Request) {
 	ctx := appengine.NewContext(r)
 	client := urlfetch.Client(ctx)
-
 	keys := r.URL.Query()
 	pincode := keys.Get("pincode")
 	if isValidPinCode(pincode) {
@@ -106,7 +94,7 @@ func ConstituencyFinder(w http.ResponseWriter, r *http.Request) {
 				if err == nil {
 					if test.Data.Constituencies != nil {
 						if len(test.Data.Constituencies) > 0 {
-							pintmpl.Execute(w, test.Data.Constituencies)
+							templates["pintable"].Execute(w, test.Data.Constituencies)
 							return
 						}
 					}
@@ -114,14 +102,14 @@ func ConstituencyFinder(w http.ResponseWriter, r *http.Request) {
 			}
 		}
 	}
-	pinerror.Execute(w, "")
+	templates["pinerror"].Execute(w, "")
 }
 
 func getConstituencyDetails(w http.ResponseWriter, r *http.Request) {
 	keys := r.URL.Query()
 	constituency := keys.Get("constituency")
 	if result, ok := constituencies[constituency]; ok {
-		tmpl.Execute(w, result)
+		templates["constituency"].Execute(w, result)
 	}
 }
 
@@ -137,51 +125,48 @@ func getCandidate(w http.ResponseWriter, r *http.Request) {
 	keys := r.URL.Query()
 	candidate := keys.Get("candidate")
 	if result, ok := candidates[candidate]; ok {
-		caninfo.Execute(w, result)
+		templates["candidate"].Execute(w, result)
 	}
 }
 
-var pincodes map[string]string
+func loadTemplates() {
+	if templates == nil {
+		templates = make(map[string]*template.Template)
+	}
+	templates["pintable"] = template.Must(template.ParseFiles("templates/pintable.html"))
+	templates["pinerror"] = template.Must(template.ParseFiles("templates/pinalert.html"))
+	templates["constituency"] = template.Must(template.ParseFiles("templates/layout.html", "templates/constituency.html"))
+	templates["candidate"] = template.Must(template.ParseFiles("templates/layout.html", "templates/candidate.html"))
+}
+
+func loadJSON() error {
+	constituencyJSON, err := os.Open("constituencies.json")
+	if err == nil {
+		byteValue, _ := ioutil.ReadAll(constituencyJSON)
+		defer constituencyJSON.Close()
+		err = json.Unmarshal(byteValue, &constituencies)
+		if err == nil {
+			candidateJSON, err := os.Open("candidates.json")
+			if err == nil {
+				byteValue, _ := ioutil.ReadAll(candidateJSON)
+				err = json.Unmarshal(byteValue, &candidates)
+				defer candidateJSON.Close()
+			}
+		}
+	}
+	return err
+}
+
 var constituencies map[string]Constituency
-var tmpl *template.Template
-var pintmpl *template.Template
-var pinerror *template.Template
-var caninfo *template.Template
 var candidates map[string]Candidate
+var templates map[string]*template.Template
 
 func main() {
-	constituencyJSON, err := os.Open("constituencies.json")
-	pincodeJSON, err := os.Open("pincode.json")
-	candidateJSON, err := os.Open("candidates.json")
 
-	if err != nil {
-		//		log.Println(err)
+	loadTemplates()
+	if err := loadJSON(); err != nil {
+		panic("Unable to load JSON : " + err.Error())
 	}
-
-	//	log.Println("Successfully Opened constituencies.json")
-	defer constituencyJSON.Close()
-
-	byteValue, _ := ioutil.ReadAll(constituencyJSON)
-	var temp Constituencies
-	err = json.Unmarshal(byteValue, &temp)
-	if err != nil {
-		//		log.Println(err)
-	}
-
-	byteValue, _ = ioutil.ReadAll(candidateJSON)
-	err = json.Unmarshal(byteValue, &candidates)
-
-	constituencies = temp.Constituencies
-	byteValue, _ = ioutil.ReadAll(pincodeJSON)
-	err = json.Unmarshal(byteValue, &pincodes)
-	if err != nil {
-		//		log.Println(err)
-	}
-
-	tmpl = template.Must(template.ParseFiles("templates/layout.html", "templates/constituency.html"))
-	pintmpl = template.Must(template.ParseFiles("templates/pintable.html"))
-	pinerror = template.Must(template.ParseFiles("templates/pinalert.html"))
-	caninfo = template.Must(template.ParseFiles("templates/layout.html", "templates/candidate.html"))
 	r := mux.NewRouter()
 	r.HandleFunc("/findconstituency", ConstituencyFinder)
 	r.HandleFunc("/getconstituency", getConstituencyDetails)
@@ -189,7 +174,10 @@ func main() {
 	s := http.StripPrefix("/", http.FileServer(http.Dir("./static/")))
 	r.PathPrefix("/").Handler(s)
 	http.Handle("/", r)
-	//	http.ListenAndServe(":8080", r)
 	appengine.Main()
+	defer func() {
+		if rec := recover(); rec != nil {
 
+		}
+	}()
 }

@@ -1,5 +1,5 @@
 {
-    "constituencies": {
+    
         "con-1": {
             "id": "con-1",
             "name": "Chennai North",
@@ -513,5 +513,4 @@
         }
     ]
         }
-    }
 }
