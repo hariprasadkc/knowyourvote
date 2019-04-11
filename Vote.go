@@ -21,10 +21,10 @@ type MP struct {
 	Wiki  string
 }
 
-type Candidate struct {
+type CandidateMeta struct {
 	Id            string
 	Name          string
-	Age           int
+	Age           string
 	Qualification string
 	Phone         string
 	Assets        string
@@ -32,12 +32,35 @@ type Candidate struct {
 	Party         string
 }
 
+type Candidate struct {
+	Id               string
+	Name             string
+	Age              string
+	Qualification    string
+	Phone            string
+	Assets           string
+	Livelihood       string
+	Party            string
+	Gender           string
+	ITR              []string
+	Cases            string `json:"cases_filed"`
+	Convictions      string
+	MovableAssets    string `json:"movable_assets"`
+	ImmovableAssets  string `json:"immovable_assets"`
+	Liabilities      string
+	Political        string `json:"political_background"`
+	PoliticalLink    string `json:"political_background_link"`
+	Affidavit        string
+	Const            string `json:"constituency"`
+	ConstituencyName string `json:"constituency_name"`
+}
+
 type Constituency struct {
 	Id         string
 	Name       string
 	Areas      []string
 	Current    MP `json:"mp"`
-	Candidates []Candidate
+	Candidates []CandidateMeta
 }
 
 type Constituencies struct {
@@ -110,8 +133,12 @@ func isValidPinCode(s string) bool {
 	return false
 }
 
-func test(w http.ResponseWriter, r *http.Request) {
-	tmpl.Execute(w, constituencies["con-1"])
+func getCandidate(w http.ResponseWriter, r *http.Request) {
+	keys := r.URL.Query()
+	candidate := keys.Get("candidate")
+	if result, ok := candidates[candidate]; ok {
+		caninfo.Execute(w, result)
+	}
 }
 
 var pincodes map[string]string
@@ -119,10 +146,13 @@ var constituencies map[string]Constituency
 var tmpl *template.Template
 var pintmpl *template.Template
 var pinerror *template.Template
+var caninfo *template.Template
+var candidates map[string]Candidate
 
 func main() {
 	constituencyJSON, err := os.Open("constituencies.json")
 	pincodeJSON, err := os.Open("pincode.json")
+	candidateJSON, err := os.Open("candidates.json")
 
 	if err != nil {
 		//		log.Println(err)
@@ -138,6 +168,9 @@ func main() {
 		//		log.Println(err)
 	}
 
+	byteValue, _ = ioutil.ReadAll(candidateJSON)
+	err = json.Unmarshal(byteValue, &candidates)
+
 	constituencies = temp.Constituencies
 	byteValue, _ = ioutil.ReadAll(pincodeJSON)
 	err = json.Unmarshal(byteValue, &pincodes)
@@ -148,10 +181,11 @@ func main() {
 	tmpl = template.Must(template.ParseFiles("templates/layout.html", "templates/constituency.html"))
 	pintmpl = template.Must(template.ParseFiles("templates/pintable.html"))
 	pinerror = template.Must(template.ParseFiles("templates/pinalert.html"))
+	caninfo = template.Must(template.ParseFiles("templates/layout.html", "templates/candidate.html"))
 	r := mux.NewRouter()
 	r.HandleFunc("/findconstituency", ConstituencyFinder)
 	r.HandleFunc("/getconstituency", getConstituencyDetails)
-	r.HandleFunc("/test", test)
+	r.HandleFunc("/getcandidate", getCandidate)
 	s := http.StripPrefix("/", http.FileServer(http.Dir("./static/")))
 	r.PathPrefix("/").Handler(s)
 	http.Handle("/", r)

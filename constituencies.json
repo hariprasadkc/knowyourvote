@@ -21,7 +21,7 @@
                 {
                     "id": "CN-1",
                     "name": "R.MOHAN RAJ",
-                    "age": 65,
+                    "age": "65",
                     "qualification": "B.sc. Botany (discontinued)",
                     "phone": "9994101000",
                     "assets": "4.2Cr",
@@ -31,7 +31,7 @@
                 {
                     "id": "CN-2",
                     "name": "KALANITHI VEERASAMI",
-                    "age": 49,
+                    "age": "49",
                     "qualification": "MBBS,MS,M.Ch,FRCS",
                     "phone": "9884259482",
                     "assets": "40 Cr",
@@ -41,7 +41,7 @@
                 {
                     "id": "CN-3",
                     "name": "MOURYA G",
-                    "age": 62,
+                    "age": "62",
                     "qualification": "M.Sc Zoology",
                     "phone": "9498119498",
                     "assets": "4 Cr",
@@ -71,7 +71,7 @@
                 {
                     "id": "CC-1",
                     "name": "KAMILA NAZAR",
-                    "age": 54,
+                    "age": "54",
                     "qualification": "M.Sc, M.Phil",
                     "phone": "9841097209",
                     "assets": "6.3Cr",
@@ -81,7 +81,7 @@
                 {
                     "id": "CC-2",
                     "name": "DAYANIDHI MAARAN",
-                    "age": 52,
+                    "age": "52",
                     "qualification": "B.A. Economics",
                     "phone": "9884259482",
                     "assets": "6.75 Cr",
@@ -91,7 +91,7 @@
                 {
                     "id": "CC-3",
                     "name": "R KARTHIKEYAN",
-                    "age": 31,
+                    "age": "31",
                     "qualification": "MDS",
                     "phone": "9003060286",
                     "assets": "1.8 Cr",
@@ -122,37 +122,396 @@
                 "wiki": "https://en.wikipedia.org/wiki/J._Jayavardhan"
             },
             "candidates": [
-                {
-                    "id": "CS-1",
-                    "name": "R RANGARAJAN",
-                    "age": 40,
-                    "qualification": "CA",
-                    "phone": "9003279233",
-                    "assets": "2 Cr",
-                    "livelihood": "ex-IAS and Civil Services Trainer",
-                    "party": "MNM"
-                },
-                {
-                    "id": "CS-2",
-                    "name": "A.J.SHERINE",
-                    "age": 26,
-                    "qualification": "M.Sc Mathematics",
-                    "phone": "04422236775",
-                    "assets": "34 Lakhs",
-                    "livelihood": "-",
-                    "party": "Naam Tamilar Katchi"
-                },
-                {
-                    "id": "CS-3",
-                    "name": "Sumathi T (a) Thamizhachi Thangapandian",
-                    "age": 31,
-                    "qualification": "PhD",
-                    "phone": "9841208151",
-                    "assets": "8 Cr",
-                    "livelihood": "Writer",
-                    "party": "DMK"
-                }
-            ]
+        {
+            "id": "CS-1",
+            "name": "KUMAR R",
+            "party": "BSJ",
+            "age": "38",
+            "phone": "9600142707",
+            "qualification": "B.A. History",
+            "livelihood": "Fruitshop Business",
+            "assets": "21000"
+        },
+        {
+            "id": "CS-2",
+            "name": "THAMIZHACHI THANGAPANDIAN",
+            "party": "DMK",
+            "age": "56",
+            "phone": "9841208151",
+            "qualification": "Ph.D",
+            "livelihood": "Writer",
+            "assets": "88633591"
+        },
+        {
+            "id": "CS-3",
+            "name": "JAYAVARDHAN J",
+            "party": "ADMK",
+            "age": "31",
+            "phone": "9840387494",
+            "qualification": "MD",
+            "livelihood": "Doctor",
+            "assets": "32896587"
+        },
+        {
+            "id": "CS-4",
+            "name": "SAIKUMAR S",
+            "party": "SOCIALIST UNITY CENTRE OF INDIA",
+            "age": "53",
+            "phone": "9087153688",
+            "qualification": "HSC",
+            "assets": "1000"
+        },
+        {
+            "id": "CS-5",
+            "name": "SRINIVASAN s",
+            "party": "REPUBLICAN PARTY OF INDIA",
+            "age": "57",
+            "phone": "9962159009",
+            "qualification": "SSLC",
+            "livelihood": "Actor",
+            "assets": "20912500"
+        },
+        {
+            "id": "CS-6",
+            "name": "THIRUNAVUKKARASU V",
+            "party": "MAKKALATCHI KATCHI",
+            "age": "42",
+            "phone": "9841104734",
+            "qualification": "SSLC",
+            "livelihood": "Employee",
+            "assets": "710924"
+        },
+        {
+            "id": "CS-7",
+            "name": "NARESH A",
+            "party": "TAMILNADU ILANGYAR KATCHI",
+            "age": "29",
+            "phone": "8015766695",
+            "qualification": "BDS",
+            "livelihood": "Dentist",
+            "assets": "240000"
+        },
+        {
+            "id": "CS-8",
+            "name": "MURALI KRISHNAN K",
+            "party": "PYRAMID PARTY OF INDIA",
+            "age": "69",
+            "phone": "9042555531",
+            "qualification": "B.com, CAIIB",
+            "livelihood": "Retired",
+            "assets": "367700000"
+        },
+        {
+            "id": "CS-9",
+            "name": "RANGARAJAN R",
+            "party": "MNM",
+            "age": "40",
+            "phone": "9003279233",
+            "qualification": "CA",
+            "livelihood": "ex-IAS and Civil Services Trainer",
+            "assets": "21019359"
+        },
+        {
+            "id": "CS-10",
+            "name": "JOHNSON R",
+            "party": "INDIAN CHRISTIAN FRONT",
+            "age": "37",
+            "phone": "8754950555",
+            "qualification": "SSLC",
+            "livelihood": "Real Estate Agent",
+            "assets": "1595871"
+        },
+        {
+            "id": "CS-11",
+            "name": "JAYAKUMAR MA",
+            "party": "DESIYA MAKKAL SAKTHI KATCHI",
+            "age": "64",
+            "phone": "6381467669",
+            "qualification": "SSLC",
+            "livelihood": "Editor",
+            "assets": "25000"
+        },
+        {
+            "id": "CS-12",
+            "name": "SHERINE AJ",
+            "party": "NAAM TAMILAR KATCHI",
+            "age": "26",
+            "phone": "044-22236775",
+            "qualification": "M.Sc Ph.D",
+            "livelihood": "Homemaker",
+            "assets": "3466760"
+        },
+        {
+            "id": "CS-14",
+            "name": "ASHOK S",
+            "party": "INDEPENDENT",
+            "age": "47",
+            "phone": "9841121135",
+            "qualification": "B.sc Chemisty, LLB",
+            "livelihood": "Advocate",
+            "assets": "6352903"
+        },
+        {
+            "id": "CS-15",
+            "name": "AZHAGIRI P",
+            "party": "INDEPENDENT",
+            "age": "45",
+            "phone": "9566200457",
+            "qualification": "BBA",
+            "livelihood": "Business",
+            "assets": "951362"
+        },
+        {
+            "id": "CS-16",
+            "name": "ELANKUMARAN S",
+            "party": "INDEPENDENT",
+            "age": "49",
+            "phone": "9500132669",
+            "qualification": "LLB",
+            "livelihood": "Advocate",
+            "assets": "349250"
+        },
+        {
+            "id": "CS-17",
+            "name": "GANESAN R",
+            "party": "INDEPENDENT",
+            "age": "51",
+            "phone": "8838409728",
+            "qualification": "LLB",
+            "livelihood": "Advocate",
+            "assets": "5785732"
+        },
+        {
+            "id": "CS-18",
+            "name": "KANNAN K",
+            "party": "INDEPENDENT",
+            "age": "46",
+            "phone": "9444268078",
+            "qualification": "BA",
+            "livelihood": "Business",
+            "assets": "249500"
+        },
+        {
+            "id": "CS-19",
+            "name": "KARTHIKEYAN P",
+            "party": "INDEPENDENT",
+            "age": "43",
+            "phone": "9840988300",
+            "qualification": "B.com",
+            "livelihood": "Business",
+            "assets": "380407"
+        },
+        {
+            "id": "CS-20",
+            "name": "KARTHIK D",
+            "party": "INDEPENDENT",
+            "age": "33",
+            "phone": "9500364778",
+            "qualification": "LLB",
+            "livelihood": "Advocate",
+            "assets": "320300"
+        },
+        {
+            "id": "CS-21",
+            "name": "SARAVANA PERUMAL K",
+            "party": "INDEPENDENT",
+            "age": "33",
+            "phone": "9566120500",
+            "qualification": "BA",
+            "livelihood": "Employee",
+            "assets": "249000"
+        },
+        {
+            "id": "CS-22",
+            "name": "CHIDAMBARA ANANTHA RAJA I",
+            "party": "INDEPENDENT",
+            "age": "35",
+            "phone": "9790985682",
+            "qualification": "BE",
+            "livelihood": "Business",
+            "assets": "72183"
+        },
+        {
+            "id": "CS-23",
+            "name": "SIBI CHAKKARAVARTHY J",
+            "party": "INDEPENDENT",
+            "age": "28",
+            "phone": "7299005577",
+            "qualification": "BE",
+            "livelihood": "CEO (Pvt Company)",
+            "assets": "803753"
+        },
+        {
+            "id": "CS-24",
+            "name": "SUDHAKAR K",
+            "party": "INDEPENDENT",
+            "age": "50",
+            "phone": "9952081177",
+            "qualification": "6th Std",
+            "livelihood": "Daily wager",
+            "assets": "81000"
+        },
+        {
+            "id": "CS-25",
+            "name": "SUBRAMANI N",
+            "party": "INDEPENDENT",
+            "age": "49",
+            "phone": "9444367626",
+            "qualification": "ML",
+            "livelihood": "Advocate",
+            "assets": "8217865"
+        },
+        {
+            "id": "CS-26",
+            "name": "SUBAYA E",
+            "party": "INDEPENDENT",
+            "age": "55",
+            "phone": "9444079535",
+            "qualification": "Ph.D, LLM",
+            "livelihood": "Business",
+            "assets": "2375800284"
+        },
+        {
+            "id": "CS-27",
+            "name": "DHANASEKARAN E",
+            "party": "INDEPENDENT",
+            "age": "51",
+            "phone": "9962604447",
+            "qualification": "SSLC",
+            "livelihood": "Reporter",
+            "assets": "503848"
+        },
+        {
+            "id": "CS-28",
+            "name": "DHANASEKARAN G",
+            "party": "INDEPENDENT",
+            "age": "48",
+            "phone": "9043555597",
+            "qualification": "LLB",
+            "livelihood": "Advocate",
+            "assets": "1332793"
+        },
+        {
+            "id": "CS-29",
+            "name": "DEVASHAGAYAM G",
+            "party": "INDEPENDENT",
+            "age": "40",
+            "phone": "9962074750",
+            "qualification": "MCA",
+            "livelihood": "Advocate",
+            "assets": "15460579"
+        },
+        {
+            "id": "CS-30",
+            "name": "KUPPAL G DEVADOSS",
+            "party": "INDEPENDENT",
+            "age": "64",
+            "phone": "9444456693",
+            "qualification": "8th Std",
+            "livelihood": "Business",
+            "assets": "15731500"
+        },
+        {
+            "id": "CS-31",
+            "name": "MANOVA S",
+            "party": "INDEPENDENT",
+            "age": "28",
+            "phone": "9003142238",
+            "qualification": "B.sc Computer Science",
+            "livelihood": "Employee",
+            "assets": "114029"
+        },
+        {
+            "id": "CS-32",
+            "name": "MOORTHY M",
+            "party": "INDEPENDENT",
+            "age": "56",
+            "phone": "951004506",
+            "qualification": "8th Std",
+            "livelihood": "Tailor",
+            "assets": "85342"
+        },
+        {
+            "id": "CS-33",
+            "name": "RAVICHANDRAN A",
+            "party": "INDEPENDENT",
+            "age": "32",
+            "phone": "9840721233",
+            "qualification": "B.com",
+            "livelihood": "Business",
+            "assets": "0"
+        },
+        {
+            "id": "CS-34",
+            "name": "RAMANUJAM / RADHA",
+            "party": "INDEPENDENT",
+            "age": "53",
+            "phone": "7550177326",
+            "qualification": "SSLC",
+            "livelihood": "Cook",
+            "assets": "0"
+        },
+        {
+            "id": "CS-35",
+            "name": "RAJI B",
+            "party": "INDEPENDENT",
+            "age": "28",
+            "phone": "9499911941",
+            "qualification": "LLB",
+            "livelihood": "Advocate",
+            "assets": "30200"
+        },
+        {
+            "id": "CS-36",
+            "name": "RAJESHWARI PRIYA M",
+            "party": "INDEPENDENT",
+            "age": "36",
+            "phone": "9629344319",
+            "qualification": "B.sc",
+            "livelihood": "Business",
+            "assets": "12164895"
+        },
+        {
+            "id": "CS-37",
+            "name": "ROSI C",
+            "party": "INDEPENDENT",
+            "age": "29",
+            "phone": "8838797900",
+            "qualification": "BA",
+            "livelihood": "Social Activist",
+            "assets": "2023"
+        },
+        {
+            "id": "CS-38",
+            "name": "JANCI J",
+            "party": "INDEPENDENT",
+            "age": "36",
+            "phone": "7358236631",
+            "qualification": "BCS",
+            "livelihood": "None",
+            "assets": "370000"
+        },
+        {
+            "id": "CS-39",
+            "name": "JAYARAMAN K",
+            "party": "INDEPENDENT",
+            "age": "43",
+            "phone": "9710653799",
+            "qualification": "HSC",
+            "livelihood": "Real Estate Business",
+            "assets": "14925696"
+        },
+        {
+            "id": "CS-40",
+            "name": "HARIHARAN D",
+            "party": "INDEPENDENT",
+            "age": "44",
+            "phone": "9884489999",
+            "qualification": "CRA",
+            "livelihood": "Business",
+            "assets": "26218500"
+        }
+    ]
         }
     }
 }

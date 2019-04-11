@@ -109,6 +109,10 @@ input[type=number].pincode-input::-webkit-outer-spin-button {
   margin: 0; 
 }
 
+input[type="number"].pincode-input {
+    -moz-appearance: textfield;
+}
+
 .gradient-bg{
 background-image: linear-gradient( 0deg,  rgba(6,183,249,1) 11.2%, rgb(0, 123, 255) 91.1% );
 }

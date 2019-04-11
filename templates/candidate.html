@@ -1,17 +1,18 @@
+{{ define "content" }}
 <section class="mt-2">
     <ol class="breadcrumb px-0 module-breadcrumb">
         <li class="breadcrumb-item"><a href="#">Home</a></li>
-        <li class="breadcrumb-item"><a href="#">Chennai North</a></li>
+        <li class="breadcrumb-item"><a href="/getconstituency?constituency={{.Const}}">{{.ConstituencyName}}</a></li>
         <li class="breadcrumb-item active">Candidate Info</li>
     </ol>
 </section>
 <section>
-    <h3 class="text-center mt-3 mb-4 font-weight-light">Candidate Info - Kalanithi Veeraasamy</h3>
+    <h3 class="text-center mt-3 mb-4 font-weight-light">Candidate Info - {{.Name}}</h3>
     <div class="card-box">
         <div class="w-100">
             <div class="gradient-bg profile-header d-flex justify-content-center align-items-center">
                 <div class="profile-picture-container">
-                    <img class="profile-picture" src="https://via.placeholder.com/150" alt="Card image cap">
+                    <img class="profile-picture" src="photos/{{.Id}}.jpg" alt="Card image cap">
                 </div>
             </div>
         </div>
@@ -20,66 +21,79 @@
                 <tbody>
                     <tr>
                         <td class="w-25 text-nowrap">Name</td>
-                        <td>Kalanithi Veeraasami</td>
+                        <td>{{.Name}}</td>
                     </tr>
                     <tr>
                         <td class="w-25 text-nowrap">Party</td>
-                        <td>DMK</td>
+                        <td>{{.Party}}</td>
                     </tr>
                     <tr>
                         <td class="w-25 text-nowrap">Age</td>
-                        <td>49 years</td>
+                        <td>{{.Age}} years</td>
                     </tr>
                     <tr>
                         <td class="w-25 text-nowrap">Gender</td>
-                        <td>Male</td>
+                        <td>{{.Gender}}</td>
                     </tr>
                     <tr>
                         <td class="w-25 text-nowrap">Phone</td>
-                        <td>9884259482</td>
+                        <td>{{.Phone}}</td>
                     </tr>
                     <tr>
                         <td class="w-25 text-nowrap">ITR</td>
-                        <td>“30,54,690”,”33,06,950”,”30,62,490”</td>
+                        <td>
+                            <table class="table table-bordered mb-0 candidate-info-table">
+                                <tbody>
+                                    <tr>
+                                    {{range $element:= .ITR}}
+                                        <td>
+                                            {{$element}}
+                                        </td>
+                                    {{end}}
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
                     </tr>
                     <tr>
                         <td class="w-25 text-nowrap">Qualification</td>
-                        <td>MBBS,MS,M.Ch,FRCS</td>
+                        <td>{{.Qualification}}</td>
                     </tr>
                     <tr>
                         <td class="w-25 text-nowrap">Livelihood</td>
-                        <td>Doctor</td>
+                        <td>{{.Livelihood}}</td>
                     </tr>
                     <tr>
                         <td class="w-25 text-nowrap">Case Filed</td>
-                        <td>NIL</td>
+                        <td>{{.Cases}}</td>
                     </tr>
                     <tr>
                         <td class="w-25 text-nowrap">Convictions</td>
-                        <td>NIL</td>
+                        <td>{{.Convictions}}</td>
                     </tr>
                     <tr>
                         <td class="w-25 text-nowrap">Movable Assets</td>
-                        <td>254456689</td>
+                        <td>{{.MovableAssets}}</td>
                     </tr>
                     <tr>
                         <td class="w-25 text-nowrap">Immovable Assets</td>
-                        <td>148665765</td>
+                        <td>{{.ImmovableAssets}}</td>
                     </tr>
                     <tr>
                         <td class="w-25 text-nowrap">Total Assets</td>
-                        <td>403122454</td>
+                        <td>{{.Assets}}</td>
                     </tr>
                     <tr>
                         <td class="w-25 text-nowrap">Liabilities</td>
-                        <td>258386550</td>
+                        <td>{{.Liabilities}}</td>
                     </tr>
                     <tr>
                         <td class="w-25 text-nowrap">Political Background</td>
-                        <td><a href="https://en.wikipedia.org/wiki/Arcot_N._Veeraswami" target="_blank" rel="noopener">Arcot.N.VeeraSami</a></td>
+                        <td><a href="{{.PoliticalLink}}">{{.Political}}</a></td>
                     </tr>
                 </tbody>
             </table>
         </div>
     </div>
 </section>
+{{end}}

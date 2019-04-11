@@ -21,6 +21,7 @@ handlers:
 - url: /
   static_files: index.html
   upload: index.html
+  secure: always
 
 - url: /favicon\.ico
   static_files: favicon.ico
@@ -29,13 +30,17 @@ handlers:
 # Otherwise, find file in static directory
 - url: /js
   static_dir: js
+  secure: always
 
 - url: /css
   static_dir: css
+  secure: always
 
 - url: /photos
   static_dir: photos
+  secure: always
 
 # All URLs are handled by the Go application script
 - url: /.*
   script: _go_app
+  secure: always

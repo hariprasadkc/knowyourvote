@@ -6,7 +6,7 @@ $(document).ready(function() {
 
         if (pinlength == 6) {
             $.ajax({
-                url: 'http://knowyourvote.appspot.com/findconstituency?pincode=' + pincode,
+                url: '//knowyourvote.appspot.com/findconstituency?pincode=' + pincode,
                 type: 'get',
                 success: function(data) {
                     $("#pincodeResult").html(data);
