@@ -1,7 +1,7 @@
 {{ define "content" }}
 <section class="mt-2">
     <ol class="breadcrumb px-0 module-breadcrumb">
-        <li class="breadcrumb-item"><a href="#">Home</a></li>
+        <li class="breadcrumb-item"><a href="/">Home</a></li>
         <li class="breadcrumb-item"><a href="/getconstituency?constituency={{.Const}}">{{.ConstituencyName}}</a></li>
         <li class="breadcrumb-item active">Candidate Info</li>
     </ol>
@@ -12,13 +12,21 @@
         <div class="w-100">
             <div class="gradient-bg profile-header d-flex justify-content-center align-items-center">
                 <div class="profile-picture-container">
-                    <img class="profile-picture" src="photos/{{.Id}}.jpg" alt="Card image cap">
+                    <img class="profile-picture" src="photos/{{.Id}}.JPG" alt="Card image cap">
                 </div>
             </div>
         </div>
         <div class="w-100 d-block">
             <table class="table table-bordered mb-0 candidate-info-table">
                 <tbody>
+                    <tr>
+                        <td class="w-25 text-nowrap">
+                            Symbol
+                        </td>
+                        <td>
+                            <img src="symbols/{{.Id}}.JPG">
+                        </td>
+                    </tr>
                     <tr>
                         <td class="w-25 text-nowrap">Name</td>
                         <td>{{.Name}}</td>
@@ -40,16 +48,18 @@
                         <td>{{.Phone}}</td>
                     </tr>
                     <tr>
+                        <td class="w-25 text-nowrap">Email</td>
+                        <td>{{.Email}}</td>
+                    </tr>
+                    <tr>
                         <td class="w-25 text-nowrap">ITR</td>
                         <td>
                             <table class="table table-bordered mb-0 candidate-info-table">
                                 <tbody>
                                     <tr>
-                                    {{range $element:= .ITR}}
-                                        <td>
-                                            {{$element}}
-                                        </td>
-                                    {{end}}
+                                        <td>{{.ITR16}}</td>
+                                        <td>{{.ITR17}}</td>
+                                        <td>{{.ITR18}}</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -60,24 +70,24 @@
                         <td>{{.Qualification}}</td>
                     </tr>
                     <tr>
+                        <td class="w-25 text-nowrap">Education</td>
+                        <td>{{.Education}}</td>
+                    </tr>
+                    <tr>
                         <td class="w-25 text-nowrap">Livelihood</td>
                         <td>{{.Livelihood}}</td>
                     </tr>
                     <tr>
-                        <td class="w-25 text-nowrap">Case Filed</td>
-                        <td>{{.Cases}}</td>
+                        <td class="w-25 text-nowrap">Pending Cases</td>
+                        <td>{{.PendingCases}}</td>
+                    </tr>
+                    <tr>
+                        <td class="w-25 text-nowrap">Pending Cases Description</td>
+                        <td>{{.PendingDescription}}</td>
                     </tr>
                     <tr>
                         <td class="w-25 text-nowrap">Convictions</td>
-                        <td>{{.Convictions}}</td>
-                    </tr>
-                    <tr>
-                        <td class="w-25 text-nowrap">Movable Assets</td>
-                        <td>{{.MovableAssets}}</td>
-                    </tr>
-                    <tr>
-                        <td class="w-25 text-nowrap">Immovable Assets</td>
-                        <td>{{.ImmovableAssets}}</td>
+                        <td>{{.ConvictedCases}}</td>
                     </tr>
                     <tr>
                         <td class="w-25 text-nowrap">Total Assets</td>

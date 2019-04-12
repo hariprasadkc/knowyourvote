@@ -24,7 +24,8 @@ type MP struct {
 type CandidateMeta struct {
 	Id            string
 	Name          string
-	Age           string
+	Age           int
+	Gender        string
 	Qualification string
 	Phone         string
 	Assets        string
@@ -33,26 +34,33 @@ type CandidateMeta struct {
 }
 
 type Candidate struct {
-	Id               string
-	Name             string
-	Age              string
-	Qualification    string
-	Phone            string
-	Assets           string
-	Livelihood       string
-	Party            string
-	Gender           string
-	ITR              []string
-	Cases            string `json:"cases_filed"`
-	Convictions      string
-	MovableAssets    string `json:"movable_assets"`
-	ImmovableAssets  string `json:"immovable_assets"`
-	Liabilities      string
-	Political        string `json:"political_background"`
-	PoliticalLink    string `json:"political_background_link"`
-	Affidavit        string
-	Const            string `json:"constituency"`
-	ConstituencyName string `json:"constituency_name"`
+	Id                 string
+	Name               string
+	Age                string
+	Qualification      string `json:"education_level"`
+	Education          string
+	Phone              string
+	Email              string
+	Assets             string
+	Livelihood         string `json:"profession"`
+	Party              string
+	Gender             string
+	ITR16              string
+	ITR17              string
+	ITR18              string
+	PendingCases       string `json:"pending_cases"`
+	PendingDescription string `json:"pending_description"`
+	PendingIPC         string `json:"pending_ipc"`
+	PendingNIPC        string `json:"pending_nipc"`
+	ConvictedCases     string `json:"convicted_cases"`
+	ConvictedIPC       string `json:"convicted_ipc"`
+	ConvictedNIPC      string `json:"convicted_nipc"`
+	Liabilities        string
+	Political          string `json:"political_background"`
+	PoliticalLink      string `json:"political_background_link"`
+	Affidavit          string
+	Const              string `json:"constituency"`
+	ConstituencyName   string `json:"constituency_name"`
 }
 
 type Constituency struct {

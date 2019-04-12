@@ -40,6 +40,10 @@ handlers:
   static_dir: photos
   secure: always
 
+- url: /symbols
+  static_dir: symbols
+  secure: always
+
 # All URLs are handled by the Go application script
 - url: /.*
   script: _go_app

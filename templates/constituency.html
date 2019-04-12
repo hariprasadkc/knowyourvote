@@ -1,7 +1,7 @@
 {{ define "content" }}
 <section class="mt-2">
     <ol class="breadcrumb px-0 module-breadcrumb">
-        <li class="breadcrumb-item"><a href="https://knowyourvote.appspot.com/">Home</a></li>
+        <li class="breadcrumb-item"><a href="/">Home</a></li>
         <li class="breadcrumb-item active">{{.Name}}</li>
     </ol>
 </section>
@@ -55,7 +55,7 @@
             {{range $index,$element := .Candidates}}
             <div class="carousel-item {{if eq $index 0}} active {{end}}">
                 	<div class="card mx-auto candidate-card">
-                    <img class="candidate-img" src="photos/{{.Id}}.jpg" alt="{{.Name}}">
+                    <img class="candidate-img" src="photos/{{.Id}}.JPG" alt="{{.Name}}">
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item text-truncate">Name: {{.Name}}</li>
                         <li class="list-group-item text-truncate">Age: {{.Age}}</li>
