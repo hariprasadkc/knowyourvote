@@ -27,6 +27,10 @@
                         <td class="text-nowrap w-25">Reference</td>
                         <td class="text-nowrap"><a class="mr-2" href="{{.Current.Link}}" target="_blank">Find your MP</a> | <a class="ml-2" href="{{.Current.Wiki}}" target="_blank">Wikipedia</a></td>
                     </tr>
+                    <tr>
+                        <td class="text-nowrap w-25">Candidates</td>
+                        <td class="text-nowrap">Total : {{len .Candidates}} <br> Male : {{.Male}} <br> Female : {{.Female}} <br> Transgender : {{.Transgender}}</td>
+                    </tr>
                 </tbody>
             </table>
         </div>
@@ -54,36 +58,36 @@
         <div class="carousel-inner">
             {{range $index,$element := .Candidates}}
             <div class="carousel-item {{if eq $index 0}} active {{end}}">
-                	<div class="card mx-auto candidate-card">
-                    <img class="candidate-img" src="photos/{{.Id}}.JPG" alt="{{.Name}}">
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item text-truncate">Name: {{.Name}}</li>
-                        <li class="list-group-item text-truncate">Age: {{.Age}}</li>
-                        <li class="list-group-item text-truncate">Qualification: {{.Qualification}}</li>
-                        <li class="list-group-item text-truncate">Phone: {{.Phone}}</li>
-                        <li class="list-group-item text-truncate">Assets: {{.Assets}}</li>
-                        <li class="list-group-item text-truncate">Livelihood: {{.Livelihood}}</li>
-                        <li class="list-group-item text-truncate">Party: {{.Party}}</li>
-                    </ul>
-                    <div class="card-body text-center">
-                        <a href="/getcandidate?candidate={{.Id}}" class="card-link">Full Details</a>
-                    </div>
+               <div class="card mx-auto candidate-card">
+                <img class="candidate-img" src="photos/{{.Id}}.JPG" alt="{{.Name}}">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item text-truncate">Name: {{.Name}}</li>
+                    <li class="list-group-item text-truncate">Age: {{.Age}}</li>
+                    <li class="list-group-item text-truncate">Qualification: {{.Qualification}}</li>
+                    <li class="list-group-item text-truncate">Phone: {{.Phone}}</li>
+                    <li class="list-group-item text-truncate">Assets: {{.Assets}}</li>
+                    <li class="list-group-item text-truncate">Livelihood: {{.Livelihood}}</li>
+                    <li class="list-group-item text-truncate">Party: {{.Party}}</li>
+                </ul>
+                <div class="card-body text-center">
+                    <a href="/getcandidate?candidate={{.Id}}" class="card-link">Full Details</a>
                 </div>
             </div>
-            {{end}}
         </div>
-        <a class="carousel-control-prev" href="#candidateCarousel" role="button" data-slide="prev">
-            <div class="carousel-control-button d-flex flex-row justify-content-center align-items-center">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            </div>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#candidateCarousel" role="button" data-slide="next">
-            <div class="carousel-control-button d-flex flex-row justify-content-center align-items-center">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            </div>
-            <span class="sr-only">Next</span>
-        </a>
+        {{end}}
     </div>
+    <a class="carousel-control-prev" href="#candidateCarousel" role="button" data-slide="prev">
+        <div class="carousel-control-button d-flex flex-row justify-content-center align-items-center">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </div>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#candidateCarousel" role="button" data-slide="next">
+        <div class="carousel-control-button d-flex flex-row justify-content-center align-items-center">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </div>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
 </section>
 {{end}}

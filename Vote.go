@@ -65,11 +65,14 @@ type Candidate struct {
 }
 
 type Constituency struct {
-	Id         string
-	Name       string
-	Areas      []string
-	Current    MP `json:"mp"`
-	Candidates []CandidateMeta
+	Id          string
+	Name        string
+	Areas       []string
+	Current     MP `json:"mp"`
+	Candidates  []CandidateMeta
+	Male        string
+	Female      string
+	Transgender string
 }
 
 type Constituencies struct {

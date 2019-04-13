@@ -8,6 +8,8 @@ html, body {
   font-family: 'Lato', sans-serif !important;
 }
 
+td { white-space:pre }
+
 .body-container {
   padding-left: 0;
   padding-right: 0;
