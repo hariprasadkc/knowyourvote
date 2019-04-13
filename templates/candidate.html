@@ -16,10 +16,11 @@
                 </div>
             </div>
         </div>
+        <h3> Personal Information </h3>
         <div class="w-100 d-block">
-            <table class="table table-bordered mb-0 candidate-info-table">
-                <tbody>
-                    <tr>
+        	<table class="table table-bordered mb-0 candidate-info-table">
+        		<tbody>
+        			<tr>
                         <td class="w-25 text-nowrap">
                             Symbol
                         </td>
@@ -52,31 +53,53 @@
                         <td>{{.Email}}</td>
                     </tr>
                     <tr>
-                        <td class="w-25 text-nowrap">ITR</td>
+                        <td class="w-25 text-nowrap">Education</td>
+                        <td>{{.Education}}</td>
+                    </tr>
+                    <tr>
+                        <td class="w-25 text-nowrap">Political Background</td>
+                        <td><a href="{{.PoliticalLink}}">{{.Political}}</a></td>
+                    </tr>
+        		</tbody>
+        	</table>
+        </div>
+        <h3> Financial Information </h3>
+        <div class="w-100 d-block">
+            <table class="table table-bordered mb-0 candidate-info-table">
+                <tbody>
+                    <tr>
+                        <td class="w-25 text-nowrap">Livelihood</td>
+                        <td>{{.Livelihood}}</td>
+                    </tr>
+                    <tr>
+                        <td class="w-25 text-nowrap">Income Source</td>
+                        <td>{{.Income}}</td>
+                    </tr>
+                    <tr>
+                        <td class="w-25 text-nowrap">Latest ITR</td>
                         <td>
-                            <table class="table table-bordered mb-0 candidate-info-table">
-                                <tbody>
-                                    <tr>
-                                        <td>{{.ITR16}}</td>
-                                        <td>{{.ITR17}}</td>
-                                        <td>{{.ITR18}}</td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                        	{{.ITR18}} | {{.ITR17}} | {{.ITR16}}
                         </td>
+                    </tr>
+                    <tr>
+                        <td class="w-25 text-nowrap">Total Assets</td>
+                        <td>{{.Assets}}</td>
+                    </tr>
+                    <tr>
+                        <td class="w-25 text-nowrap">Total Liabilities</td>
+                        <td>{{.Liabilities}}</td>
                     </tr>
                     <tr>
                         <td class="w-25 text-nowrap">Qualification</td>
                         <td>{{.Qualification}}</td>
                     </tr>
-                    <tr>
-                        <td class="w-25 text-nowrap">Education</td>
-                        <td>{{.Education}}</td>
-                    </tr>
-                    <tr>
-                        <td class="w-25 text-nowrap">Livelihood</td>
-                        <td>{{.Livelihood}}</td>
-                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <h3> Criminal Record </h3>
+        <div class="w-100 d-block">
+            <table class="table table-bordered mb-0 candidate-info-table">
+            	<tbody>
                     <tr>
                         <td class="w-25 text-nowrap">Pending Cases</td>
                         <td>{{.PendingCases}}</td>
@@ -88,21 +111,18 @@
                     <tr>
                         <td class="w-25 text-nowrap">Convictions</td>
                         <td>{{.ConvictedCases}}</td>
-                    </tr>
-                    <tr>
-                        <td class="w-25 text-nowrap">Total Assets</td>
-                        <td>{{.Assets}}</td>
-                    </tr>
-                    <tr>
-                        <td class="w-25 text-nowrap">Liabilities</td>
-                        <td>{{.Liabilities}}</td>
-                    </tr>
-                    <tr>
-                        <td class="w-25 text-nowrap">Political Background</td>
-                        <td><a href="{{.PoliticalLink}}">{{.Political}}</a></td>
-                    </tr>
-                </tbody>
+                    </tr>            		
+            	</tbody>
             </table>
+        </div>
+        <div class="w-100 d-block">
+        	<a href="{{.Affidavit}}">
+        		<h3>Affidavit</h3>
+        	</a>	
+        </div>
+        <div>
+        	<span onclick="prev('{{.Id}}')">Prev</span>
+        	<span onclick="next('{{.Id}}')">Next</span>
         </div>
     </div>
 </section>

@@ -43,6 +43,7 @@ type Candidate struct {
 	Email              string
 	Assets             string
 	Livelihood         string `json:"profession"`
+	Income             string
 	Party              string
 	Gender             string
 	ITR16              string
