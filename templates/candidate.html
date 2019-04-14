@@ -105,11 +105,11 @@
                         </td>
                     </tr>
                     <tr>
-                        <td class="w-25 text-nowrap font-weight-bold">Total Assets</td>
+                        <td class="w-25 text-nowrap font-weight-bold">Total Assets<sup class="text-danger font-weight-bold">*</sup></td>
                         <td>{{.Assets}}</td>
                     </tr>
                     <tr>
-                        <td class="w-25 text-nowrap font-weight-bold">Total Liabilities</td>
+                        <td class="w-25 text-nowrap font-weight-bold">Total Liabilities<sup class="text-danger font-weight-bold">*</sup></td>
                         <td>{{.Liabilities}}</td>
                     </tr>
                     <tr>
@@ -151,5 +151,15 @@
         <a class="link" onclick="prev('{{.Id}}')"><span>&laquo;</span> Previous Candidate</a>
         <a class="link" onclick="next('{{.Id}}')">Next Candidate <span>&raquo;</span> </a>
     </div>
+</section>
+<section class="mt-4">
+	<div class="alert alert-warning" role="alert">
+	  <h4 class="alert-heading">Disclaimer</h4>
+	  <hr>
+	  <ul>
+	  	<li><p>All the data we have listed here is as provided by the candidate in the affidavit. If you notice any discrepancy between affidavit's and our data please send a mail to <a class="alert-link" href="mailto:incubator.webmaster@gmail.com">incubator.webmaster@gmail.com</a>.</p></li>
+	  	<li><p class="mb-0"><sup class="text-danger font-weight-bold">*</sup> Assets and liabilities displayed here represent the consolidated value of the candidate,spouse and his/her dependents assets/liabilities.</p></li>
+	  </ul>
+	</div>
 </section>
 {{end}}
