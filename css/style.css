@@ -2,13 +2,12 @@
   --color-white: #FFF;
   --main-container-bg-color: #F5F5F6;
   --card-box-shadow: 0px 1px 2px 1px rgba(52, 53, 55, 0.18);
+  --border-color: #dee2e6;
 }
 
 html, body {
   font-family: 'Lato', sans-serif !important;
 }
-
-td { white-space:pre }
 
 .body-container {
   padding-left: 0;
@@ -115,32 +114,36 @@ input[type="number"].pincode-input {
     -moz-appearance: textfield;
 }
 
-.gradient-bg{
-background-image: linear-gradient( 0deg,  rgba(6,183,249,1) 11.2%, rgb(0, 123, 255) 91.1% );
+.profile-picture-container{
+border-right: none;
+overflow: hidden;
 }
 
-.profile-header{
-    position: relative;
-    padding:1rem;
-    text-align: center;
-}
+@media (min-width: 576px) {
+.profile-picture-container{
+  border-right: 1px solid var(--border-color);
+  }
+ }
 
-.profile-header .profile-picture-container{
-  display: block;
-  height: 170px;
-  width:170px;
-  background-color: var(--color-white);
-  box-shadow: var(--card-box-shadow);
-  border-radius: 50%;
-  padding:10px;
-}
-
-.profile-header .profile-picture-container .profile-picture{
-  height: 150px;
-  width:150px;
-  border-radius: 50%;
+.profile-picture-container .profile-picture{
+  max-height: 200px !important;
+  max-width: 200px !important;
 }
 
 .candidate-info-table td{
   word-break: break-all;
 }
+
+.link{
+  color: var(--blue) !important;
+  cursor: pointer !important;
+}
+
+.pre-wrap{
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap; 
+    white-space: -pre-wrap;      
+    white-space: -o-pre-wrap;   
+    word-wrap: break-word;       
+}
+
