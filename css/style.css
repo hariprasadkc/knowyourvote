@@ -138,3 +138,30 @@ overflow: hidden;
     word-wrap: break-word;       
 }
 
+.icon-love {
+    margin: 0 3px;
+}
+
+.icon-love svg {
+    fill: var(--pink);
+    height: 12px;
+    width: 12px;
+    animation: pound 0.35s infinite alternate;
+    -webkit-animation: pound 0.35s infinite alternate;
+}
+
+@-webkit-keyframes pound {
+    to {
+        transform: scale(1.2);
+    }
+}
+
+@keyframes pound {
+    to {
+        transform: scale(1.2);
+    }
+}
+
+.flex-grow {
+    flex: 1 0 auto;
+}
