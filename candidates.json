@@ -1,10 +1,10 @@
 {
   "CC-24": {
     "ITR16": "₹ 0",
-    "income": "CARPENTER - Self employed",
+    "income": "Carpenter - Self employed",
     "ITR17": "₹ 0",
     "ITR18": "₹ 0",
-    "education": "7TH STANDARD",
+    "education": "7th standard",
     "gender": "Male",
     "pending_cases": "0",
     "assets": "₹ 1,35,000",
@@ -13,11 +13,11 @@
     "convicted_description": "-",
     "email": "srkumar32@gmail.com",
     "order": 25,
-    "profession": "CARPENTER",
+    "profession": "Carpenter",
     "pending_nipc": "0",
     "pending_description": "-",
     "convicted_cases": "0",
-    "spouse_profession": "HOUSE WIFE",
+    "spouse_profession": "House wife",
     "spouse_income": "-",
     "convicted_ipc": "0",
     "convicted_nipc": "0",
@@ -25,18 +25,19 @@
     "constituency": "con-2",
     "phone": "9176007342",
     "liabilities": "₹ 0",
-    "name": "K.M. PRABHAKARAN",
-    "education_level": "5TH PASS",
+    "name": "K.M. Prabhakaran",
+    "education_level": "7th pass",
     "party": "Independent",
     "age": "57",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/4/S2220190326115845.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/4/S2220190326115845.pdf",
+    "symbol": "Cricket Bat"
   },
   "CC-23": {
     "ITR16": "₹ 2,21,870",
     "income": "Construction Business",
     "ITR17": "₹ 2,42,870",
     "ITR18": "₹ 2,88,370",
-    "education": "8TH PASS - MUTHUZIYA HIGHER SECONDARY SCHOOL CHENNAI",
+    "education": "8th pass - Muthuziya Higher Secondary School Chennai",
     "gender": "Female",
     "pending_cases": "0",
     "assets": "₹ 10,40,000",
@@ -57,18 +58,19 @@
     "constituency": "con-2",
     "phone": "9884739915",
     "liabilities": "₹ 0",
-    "name": "M NAJIMUNNISSA ",
-    "education_level": "8TH PASS",
+    "name": "M Najimunnissa",
+    "education_level": "8th pass",
     "party": "Anaithu Makkal Katchi",
     "age": "48",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/4/S2220190328054020.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/4/S2220190328054020.pdf",
+    "symbol": "Auto"
   },
   "CC-22": {
     "ITR16": "₹ 2,36,56,300",
     "income": "Salary, MP Pension, Dividend, Interest",
     "ITR17": "₹ 2,56,76,540",
     "ITR18": "₹ 2,83,68,820",
-    "education": "BA ECONOMICS",
+    "education": "BA Economics",
     "gender": "Male",
     "pending_cases": "1",
     "assets": "₹ 11,67,90,616",
@@ -79,7 +81,7 @@
     "order": 1,
     "profession": "Salaried",
     "pending_nipc": "-",
-    "pending_description": "ALLEGEDLY USED TELEPHONE FACILITIES ABOVE THE ENTITILEMENT AND CAUSED LOSS TO THE EXCHEQUER OF ABOUT 1.79 CRORES",
+    "pending_description": "Allegedly used telephone facilities above the entitilement and caused loss to the exchequer of about 1.79 crores",
     "convicted_cases": "0",
     "spouse_profession": "Salaried",
     "spouse_income": "Salary, Dividend, Interest",
@@ -90,16 +92,17 @@
     "phone": "044-24371515",
     "liabilities": "₹ 0",
     "name": "Dayanidhi Maran",
-    "education_level": "GRADUATE",
+    "education_level": "Graduate",
     "party": "Dravida Munnetra Kazhagam",
     "age": "52",
     "political_background": "Ex-MP",
     "political_background_link": "https://www.prsindia.org/mptrack/15loksabha/dayanidhimaran",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/4/S2220190326064247.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/4/S2220190326064247.pdf",
+    "symbol": "Rising Sun"
   },
   "CC-21": {
     "ITR16": "₹ 0",
-    "income": "DETECTIVE - PRIVATE",
+    "income": "Private Detective",
     "ITR17": "₹ 0",
     "ITR18": "₹ 0",
     "education": "BSC VISCOM",
@@ -111,7 +114,7 @@
     "convicted_description": "-",
     "email": "-",
     "order": 22,
-    "profession": "DETECTIVE - PRIVATE",
+    "profession": "Private Detective",
     "pending_nipc": "0",
     "pending_description": "-",
     "convicted_cases": "0",
@@ -123,11 +126,12 @@
     "constituency": "con-2",
     "phone": "9940642466",
     "liabilities": "₹ 0",
-    "name": "V.V. TAMILARASAN",
-    "education_level": "GRADUATE",
+    "name": "V.V. Tamilarasan",
+    "education_level": "Graduate",
     "party": "Independent",
     "age": "33",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/4/S2220190327124722.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/4/S2220190327124722.pdf",
+    "symbol": "CCTV"
   },
   "CC-20": {
     "ITR16": "₹ 3,60,000",
@@ -156,17 +160,18 @@
     "phone": "9442066678",
     "liabilities": "₹ 0",
     "name": "Vaithiyanathan",
-    "education_level": "POST GRADUATE",
+    "education_level": "Post Graduate",
     "party": "Independent",
     "age": "39",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/4/S2220190401052710.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/4/S2220190401052710.pdf",
+    "symbol": "Box"
   },
   "CC-9": {
     "ITR16": "₹ 2,42,100",
     "income": "Catering",
     "ITR17": "₹ 0",
     "ITR18": "₹ 0",
-    "education": "CRAFT COURSE IN FOOD PRODUCTION",
+    "education": "Craft course in food production",
     "gender": "Male",
     "pending_cases": "2",
     "assets": "₹ 18,81,716",
@@ -188,10 +193,11 @@
     "phone": "9176475201",
     "liabilities": "₹ 2,88,000",
     "name": "Sasikumar",
-    "education_level": "OTHERS",
+    "education_level": "Others",
     "party": "Tamil Nadu Ilaingyar Katchi",
     "age": "36",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/4/S2220190401062348.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/4/S2220190401062348.pdf",
+    "symbol": "Ring"
   },
   "CC-8": {
     "ITR16": "₹ 0",
@@ -211,7 +217,7 @@
     "pending_nipc": "-",
     "pending_description": "-",
     "convicted_cases": "0",
-    "spouse_profession": "Accountant in Husband Business",
+    "spouse_profession": "Accountant in Husband's Business",
     "spouse_income": "Salary",
     "convicted_ipc": "-",
     "convicted_nipc": "-",
@@ -220,10 +226,11 @@
     "phone": "9941493276",
     "liabilities": "₹ 1,25,79,000",
     "name": "M Ravichandran",
-    "education_level": "POST GRADUATE",
+    "education_level": "Post Graduate",
     "party": "Independent",
     "age": "55",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/4/S2220190401053803.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/4/S2220190401053803.pdf",
+    "symbol": "Robot"
   },
   "CC-7": {
     "ITR16": "₹ 19,86,800",
@@ -251,11 +258,12 @@
     "constituency": "con-2",
     "phone": "044-26550346",
     "liabilities": "₹ 0",
-    "name": "C.S. KARNAN",
-    "education_level": "GRADUATE",
+    "name": "C.S. Karnan",
+    "education_level": "Graduate",
     "party": "Anti Corruption Dynamic Party",
     "age": "63",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/4/S2220190325074238.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/4/S2220190325074238.pdf",
+    "symbol": "Jackfruit"
   },
   "CC-6": {
     "ITR16": "₹ 85,53,809",
@@ -284,17 +292,18 @@
     "phone": "9840077288",
     "liabilities": "₹ 25,80,28,373",
     "name": "S.R. Sam Paul",
-    "education_level": "POST GRADUATE",
+    "education_level": "Post Graduate",
     "party": "Pattali Makkal Katchi",
     "age": "41",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/4/S2220190326103018.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/4/S2220190326103018.pdf",
+    "symbol": "Mango"
   },
   "CC-5": {
     "ITR16": "₹ 0",
-    "income": "LABOUR",
+    "income": "Labour",
     "ITR17": "₹ 0",
     "ITR18": "₹ 0",
-    "education": "12TH PASS",
+    "education": "12th pass",
     "gender": "Male",
     "pending_cases": "0",
     "assets": "₹ 21,000",
@@ -303,11 +312,11 @@
     "convicted_description": "-",
     "email": "-",
     "order": 2,
-    "profession": "LABOUR",
+    "profession": "Labour",
     "pending_nipc": "0",
     "pending_description": "-",
     "convicted_cases": "0",
-    "spouse_profession": "HOUSE WIFE",
+    "spouse_profession": "House wife",
     "spouse_income": "-",
     "convicted_ipc": "0",
     "convicted_nipc": "0",
@@ -315,18 +324,19 @@
     "constituency": "con-2",
     "phone": "9940269683",
     "liabilities": "₹ 0",
-    "name": "M PARTHASARATHI",
-    "education_level": "12TH PASS",
+    "name": "M Parthasarathi",
+    "education_level": "12th pass",
     "party": "Bahujan Samaj Party",
     "age": "49",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/4/S2220190326103445.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/4/S2220190326103445.pdf",
+    "symbol": "Elephant"
   },
   "CC-4": {
     "ITR16": "₹ 8,09,367",
     "income": "Business",
     "ITR17": "₹ 11,56,290",
     "ITR18": "₹ 14,44,362",
-    "education": "M.SC, M.A. PHILOSOPHY",
+    "education": "M.SC, M.A. Philosophy",
     "gender": "Female",
     "pending_cases": "0",
     "assets": "₹ 7,19,05,468",
@@ -348,10 +358,11 @@
     "phone": "9841097209/9790927209",
     "liabilities": "₹ 94,90,525",
     "name": "Kamila Nazar",
-    "education_level": "POST GRADUATE",
-    "party": "Makkal Needhi  Maiam",
+    "education_level": "Post graduate",
+    "party": "Makkal Needhi Maiam",
     "age": "54",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/4/S2220190325080143.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/4/S2220190325080143.pdf",
+    "symbol": "Torchlight"
   },
   "CC-3": {
     "ITR16": "₹ 4,73,597",
@@ -380,18 +391,19 @@
     "phone": "9003060286",
     "liabilities": "₹ 1,06,80,758",
     "name": "Dr.R.Karthikeyan",
-    "education_level": "GRADUATE PROFESSIONAL",
+    "education_level": "Graduate Professional",
     "party": "Naam Thamizhar Katchi",
     "age": "31",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/4/S2220190326104806.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/4/S2220190326104806.pdf",
+    "symbol": "Farmer"
   },
   "CC-2": {
     "ITR16": "₹ 3,85,976",
-    "income": "COMMISSION AND ADVISORY FEES",
+    "income": "Commission and advisory fees",
     "ITR17": "₹ 4,20,398",
     "ITR18": "₹ 6,31,554",
-    "education": "B.COM (MADRAS UNIVERSITY 1987)",
-    "gender": "MALE",
+    "education": "B.Com (Madras University 1987)",
+    "gender": "Male",
     "pending_cases": "0",
     "assets": "₹ 1,16,72,869",
     "pending_ipc": "0",
@@ -399,12 +411,12 @@
     "convicted_description": "-",
     "email": "jaigurudev.saibaba@yahoo.co.in",
     "order": 30,
-    "profession": "FINANCIAL ADVISOR",
+    "profession": "Financial advisor",
     "pending_nipc": "0",
     "pending_description": "-",
     "convicted_cases": "-",
-    "spouse_profession": "INSURANCE ADVISOR",
-    "spouse_income": "COMMISION AND BANK FDS",
+    "spouse_profession": "Insurance advisor",
+    "spouse_income": "Commision and bank fds",
     "convicted_ipc": "0",
     "convicted_nipc": "0",
     "constituency_name": "Chennai Central",
@@ -412,14 +424,15 @@
     "phone": "04424843065 / 9566298973",
     "liabilities": "₹ 97,873",
     "name": "Raj Ramchand",
-    "education_level": "GRADUATE",
+    "education_level": "Graduate",
     "party": "Independent",
     "age": "51",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/4/S2220190330054453.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/4/S2220190330054453.pdf",
+    "symbol": "Bucket"
   },
   "CC-29": {
     "ITR16": "₹ 9,71,780",
-    "income": "RENTAL AND BUSINESS INCOME",
+    "income": "Rental and business income",
     "ITR17": "₹ 9,32,430",
     "ITR18": "₹ 10,79,760",
     "education": "BA",
@@ -431,31 +444,32 @@
     "convicted_description": "-",
     "email": "northchennaipmk@gmail.com ",
     "order": 15,
-    "profession": "TEXTILE BUSINESS",
+    "profession": "Textile business",
     "pending_nipc": "-",
     "pending_description": "-",
     "convicted_cases": "-",
-    "spouse_profession": "TEXTILE BUSINESS",
-    "spouse_income": "RENTAL AND BUSINESS INCOME",
+    "spouse_profession": "Textile business",
+    "spouse_income": "Rental and business income",
     "convicted_ipc": "-",
     "convicted_nipc": "-",
     "constituency_name": "Chennai Central",
     "constituency": "con-2",
     "phone": "044-25967792",
     "liabilities": "₹ 0",
-    "name": "V.RADHAKRISHNAN",
-    "education_level": "GRADUATE",
+    "name": "V.Radhakrishnan",
+    "education_level": "Graduate",
     "party": "Independent",
     "age": "47",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/4/S2220190401115251.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/4/S2220190401115251.pdf",
+    "symbol": "Cooker"
   },
   "CC-1": {
     "ITR16": "₹ 0",
     "income": "Advocate",
     "ITR17": "₹ 0",
     "ITR18": "₹ 0",
-    "education": "BCA; B.L.; DR.AMBEDKAR LAW UNIVERISITY, PASSING YR 2016",
-    "gender": "MALE",
+    "education": "BCA; B.L.; Dr.Ambedkar Law Univerisity, Passing yr 2016",
+    "gender": "Male",
     "pending_cases": "0",
     "assets": "₹ 75,000",
     "pending_ipc": "-",
@@ -463,7 +477,7 @@
     "convicted_description": "-",
     "email": "nehruprabakaranlegal@gmail.com",
     "order": 26,
-    "profession": "ADVOCATE",
+    "profession": "Advocate",
     "pending_nipc": "-",
     "pending_description": "-",
     "convicted_cases": "-",
@@ -476,17 +490,18 @@
     "phone": "9176808463",
     "liabilities": "₹ 0",
     "name": "N Prabhakaran",
-    "education_level": "GRADUATE PROFESSIONAL",
+    "education_level": "Graduate Professional",
     "party": "Independent",
     "age": "27",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/4/S2220190325080631.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/4/S2220190325080631.pdf",
+    "symbol": "Street Light"
   },
   "CC-28": {
     "ITR16": "₹ 0",
     "income": "Daily Labour and Social Activist",
     "ITR17": "₹ 0",
     "ITR18": "₹ 0",
-    "education": "SSLC; RURAL INST. OF OPEN SCHOOLING, 2016",
+    "education": "SSLC; Rural Inst. of Open Schooling, 2016",
     "gender": "Male",
     "pending_cases": "1",
     "assets": "₹ 1,75,000",
@@ -495,7 +510,7 @@
     "convicted_description": "-",
     "email": "jesus.saves.1301@gmail.com",
     "order": 16,
-    "profession": "DAILY LABOURER and Social Activist",
+    "profession": "Daily labour and Social Activist",
     "pending_nipc": "0",
     "pending_description": "Fighting",
     "convicted_cases": "0",
@@ -507,18 +522,19 @@
     "constituency": "con-2",
     "phone": "7299479986",
     "liabilities": "₹ 0",
-    "name": "Dr.N. GUNASEKAR",
+    "name": "Dr.N. Gunasekar",
     "education_level": "10TH PASS",
     "party": "Independent",
     "age": "29",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/4/S2220190326112459.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/4/S2220190326112459.pdf",
+    "symbol": "Helmet"
   },
   "CC-27": {
     "ITR16": "₹ 0",
     "income": "-",
     "ITR17": "₹ 0",
     "ITR18": "₹ 0",
-    "education": "M.C.A; UNIVERSITY OF MADRAS 2014",
+    "education": "M.C.A; University Of Madras 2014",
     "gender": "Male",
     "pending_cases": "0",
     "assets": "₹ 3,50,808",
@@ -527,11 +543,11 @@
     "convicted_description": "-",
     "email": "samuellpaull@gmail.com",
     "order": 20,
-    "profession": "REAL ESTATE-MEDIATOR",
+    "profession": "Real estate-mediator",
     "pending_nipc": "0",
     "pending_description": "-",
     "convicted_cases": "0",
-    "spouse_profession": "HOUSE WIFE",
+    "spouse_profession": "House wife",
     "spouse_income": "-",
     "convicted_ipc": "0",
     "convicted_nipc": "0",
@@ -540,17 +556,18 @@
     "phone": "9791100839",
     "liabilities": "₹ 0",
     "name": "SAMUELPAUL ",
-    "education_level": "POST GRADUATE",
+    "education_level": "Post graduate",
     "party": "Independent",
     "age": "29",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/4/S2220190326023724.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/4/S2220190326023724.pdf",
+    "symbol": "Capsicum"
   },
   "CC-26": {
     "ITR16": "₹ 0",
     "income": "SALARIED",
     "ITR17": "₹ 0",
     "ITR18": "₹ 0",
-    "education": "MBA, BHARATHIYAR UNIVERSITY, COIMBATORE",
+    "education": "MBA, Bharathiyar University, Coimbatore",
     "gender": "Male",
     "pending_cases": "0",
     "assets": "₹ 70,000",
@@ -559,7 +576,7 @@
     "convicted_description": "-",
     "email": "dinakaran@yahoo.com",
     "order": 23,
-    "profession": "EMPLOYED AT PRIVATE COMPANY",
+    "profession": "Employed at private company",
     "pending_nipc": "0",
     "pending_description": "-",
     "convicted_cases": "0",
@@ -572,17 +589,18 @@
     "phone": "9551760131",
     "liabilities": "₹ 0",
     "name": "G DINAKARAN",
-    "education_level": "POST GRADUATE",
+    "education_level": "Post graduate",
     "party": "Independent",
     "age": "29",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/4/S2220190325082259.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/4/S2220190325082259.pdf",
+    "symbol": "Balloon"
   },
   "CC-25": {
     "ITR16": "₹ 4,97,425",
-    "income": "PROFESSIONAL FEE",
+    "income": "Professional fee",
     "ITR17": "₹ 5,15,912",
     "ITR18": "₹ 0",
-    "education": "B.A.; B.L; DR.AMBEDKAR GOVT LAW COLLEGE",
+    "education": "B.A.; B.L; Dr.Ambedkar Govt Law College",
     "gender": "Male",
     "pending_cases": "0",
     "assets": "₹ 70,15,000",
@@ -595,26 +613,27 @@
     "pending_nipc": "0",
     "pending_description": "-",
     "convicted_cases": "0",
-    "spouse_profession": "BUSINESS",
-    "spouse_income": "BUSINESS INCOME",
+    "spouse_profession": "Business",
+    "spouse_income": "Business income",
     "convicted_ipc": "0",
     "convicted_nipc": "0",
     "constituency_name": "Chennai Central",
     "constituency": "con-2",
     "phone": "8838695467",
     "liabilities": "₹ 53,00,000",
-    "name": "L GOVINDRAJ",
-    "education_level": "GRADUATE PROFESSIONAL",
+    "name": "L Govindraj",
+    "education_level": "Graduate professional",
     "party": "Independent",
     "age": "39",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/4/S2220190325081533.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/4/S2220190325081533.pdf",
+    "symbol": "Diamond"
   },
   "CC-13": {
     "ITR16": "₹ 0",
     "income": "Tinker",
     "ITR17": "₹ 0",
     "ITR18": "₹ 0",
-    "education": "5TH PASS",
+    "education": "5th pass",
     "gender": "Male",
     "pending_cases": "0",
     "assets": "₹ 37,000",
@@ -627,8 +646,8 @@
     "pending_nipc": "-",
     "pending_description": "-",
     "convicted_cases": "0",
-    "spouse_profession": "HOUSE WIFE",
-    "spouse_income": "HOUSE WIFE",
+    "spouse_profession": "House wife",
+    "spouse_income": "House wife",
     "convicted_ipc": "-",
     "convicted_nipc": "-",
     "constituency_name": "Chennai Central",
@@ -636,10 +655,11 @@
     "phone": "9941606199",
     "liabilities": "₹ 0",
     "name": "K. Kuppusamy",
-    "education_level": "5TH PASS",
+    "education_level": "5th pass",
     "party": "Independent",
     "age": "46",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/4/S2220190327030332.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/4/S2220190327030332.pdf",
+    "symbol": "Ship"
   },
   "CC-12": {
     "ITR16": "₹ 6,21,785",
@@ -659,19 +679,20 @@
     "pending_nipc": "0",
     "pending_description": "-",
     "convicted_cases": "0",
-    "spouse_profession": "HOUSEWIFE",
-    "spouse_income": "HOUSE WIFE",
+    "spouse_profession": "Housewife",
+    "spouse_income": "House wife",
     "convicted_ipc": "0",
     "convicted_nipc": "0",
     "constituency_name": "Chennai Central",
     "constituency": "con-2",
     "phone": "9841331292",
     "liabilities": "₹ 0",
-    "name": "S JITENDRA KUMAR JAIN",
-    "education_level": "GRADUATE",
+    "name": "S Jitendra Kumar Jain",
+    "education_level": "Graduate",
     "party": "Republican Party Of India",
     "age": "41",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/4/S2220190327023801.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/4/S2220190327023801.pdf",
+    "symbol": "Pen"
   },
   "CC-11": {
     "ITR16": "₹ 3,25,233",
@@ -700,10 +721,11 @@
     "phone": "7397433033",
     "liabilities": "₹ 0",
     "name": "Madhanagopal",
-    "education_level": "GRADUATE",
+    "education_level": "Graduate",
     "party": "Independent",
     "age": "41",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/4/S2220190327125857.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/4/S2220190327125857.pdf",
+    "symbol": "Computer"
   },
   "CC-10": {
     "ITR16": "₹ 0",
@@ -732,17 +754,18 @@
     "phone": "9894643200",
     "liabilities": "₹ 0",
     "name": "Sampaul",
-    "education_level": "POST GRADUATE",
+    "education_level": "Post Graduate",
     "party": "Independent",
     "age": "28",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/4/S2220190326113845.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/4/S2220190326113845.pdf",
+    "symbol": "Grapes"
   },
   "CC-31": {
     "ITR16": "₹ 0",
-    "income": "SOCIAL ACTIVIST ",
+    "income": "SociaL Activist",
     "ITR17": "₹ 0",
     "ITR18": "₹ 0",
-    "education": "DIPLOMA",
+    "education": "Diploma",
     "gender": "Female",
     "pending_cases": "-",
     "assets": "₹ 22,80,000",
@@ -751,30 +774,31 @@
     "convicted_description": "-",
     "email": "-",
     "order": 11,
-    "profession": "SOCIAL ACTIVIST ",
+    "profession": "Social Activist",
     "pending_nipc": "-",
     "pending_description": "-",
     "convicted_cases": "-",
-    "spouse_profession": "RTD OFFICER",
-    "spouse_income": "RTD OFFICER",
+    "spouse_profession": "Retired Officer",
+    "spouse_income": "Retired Officer",
     "convicted_ipc": "-",
     "convicted_nipc": "-",
     "constituency_name": "Chennai Central",
     "constituency": "con-2",
     "phone": "9962258322",
     "liabilities": "₹ 0",
-    "name": "Dr.K. VALARMATHI",
-    "education_level": "OTHERS",
+    "name": "Dr.K. Valarmathi",
+    "education_level": "Others",
     "party": "Akila India Vallalar Peravai",
     "age": "46",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/4/S2220190326101626.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/4/S2220190326101626.pdf",
+    "symbol": "Key"
   },
   "CC-30": {
     "ITR16": "₹ 0",
     "income": "Auto Mobile Spare part Business",
     "ITR17": "₹ 0",
     "ITR18": "₹ 0",
-    "education": "8TH PASS",
+    "education": "8th pass",
     "gender": "Male",
     "pending_cases": "3",
     "assets": "₹ 22,74,313",
@@ -783,12 +807,12 @@
     "convicted_description": "-",
     "email": "kksmnellai@gmail.com",
     "order": 13,
-    "profession": "BUSINESS",
+    "profession": "Business",
     "pending_nipc": "-",
     "pending_description": "1. On 29.11.2017 at Ukkadam, demonstration was conducted on behalf of party to condemn brutal killings of innocent persons in 1997, November at Coimbatore. The candidate delivered a special address - consequently case was registered on 10.12.2017 after a lapse of 11 days.\r\n2. On 08.10.2017 at YMCA ground, Chennai, public meeting was conducted and candidate delivered a special address - consequent to which case was registered on 01.11.2017, after a lapse of 24 days. \r\n3. It is alleged that on 17.03.2003, at Eravadi 6th street, the candidate, including some others, has assaulted, and abused one Moideen Batcha and also threatened him with dire consequences.",
     "convicted_cases": "-",
-    "spouse_profession": "HOUSE-WIFE",
-    "spouse_income": "HOUSE WIFE",
+    "spouse_profession": "House wife",
+    "spouse_income": "House wife",
     "convicted_ipc": "-",
     "convicted_nipc": "-",
     "constituency_name": "Chennai Central",
@@ -796,17 +820,18 @@
     "phone": "9444572087",
     "liabilities": "₹ 0",
     "name": "Sheik Mohamed (A) Dhehlan Baqavi",
-    "education_level": "8TH PASS",
-    "party": "Social  Democratic Party Of India",
+    "education_level": "8th pass",
+    "party": "Social Democratic Party Of India",
     "age": "48",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/4/S2220190326110552.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/4/S2220190326110552.pdf",
+    "symbol": "Gift box"
   },
   "CC-19": {
     "ITR16": "₹ 0",
     "income": "-",
     "ITR17": "₹ 0",
     "ITR18": "₹ 0",
-    "education": "10TH PASS",
+    "education": "10th pass",
     "gender": "Male",
     "pending_cases": "0",
     "assets": "₹ 1,92,000",
@@ -827,15 +852,16 @@
     "constituency": "con-2",
     "phone": "9787424595",
     "liabilities": "₹ 0",
-    "name": "NASAR K",
-    "education_level": "10TH PASS",
+    "name": "Nasar K",
+    "education_level": "10th pass",
     "party": "Independent",
     "age": "35",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/4/S2220190327012942.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/4/S2220190327012942.pdf",
+    "symbol": "Rubber Stamp"
   },
   "CC-18": {
     "ITR16": "₹ 0",
-    "income": "MOBILE MECHANIC",
+    "income": "Mobile mechanic",
     "ITR17": "₹ 0",
     "ITR18": "₹ 0",
     "education": "10TH PASS",
@@ -847,23 +873,24 @@
     "convicted_description": "-",
     "email": "raghavan9459@gmail.com",
     "order": 14,
-    "profession": "MOBILE MECHANIC",
+    "profession": "Mobile mechanic",
     "pending_nipc": "0",
     "pending_description": "-",
     "convicted_cases": "0",
-    "spouse_profession": "HELPER",
-    "spouse_income": "HELPER",
+    "spouse_profession": "Helper",
+    "spouse_income": "Helper",
     "convicted_ipc": "0",
     "convicted_nipc": "0",
     "constituency_name": "Chennai Central",
     "constituency": "con-2",
     "phone": "9840427808",
     "liabilities": "₹ 0",
-    "name": "M.RAGHAVAN",
-    "education_level": "10TH PASS",
+    "name": "M.Raghavan",
+    "education_level": "10th pass",
     "party": "Independent",
     "age": "62",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/4/S2220190327020749.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/4/S2220190327020749.pdf",
+    "symbol": "Remote"
   },
   "CC-17": {
     "ITR16": "₹ 0",
@@ -892,17 +919,18 @@
     "phone": "9710628801",
     "liabilities": "₹ 0",
     "name": "S Chandranathan",
-    "education_level": "GRADUATE PROFESSIONAL",
+    "education_level": "Graduate professional",
     "party": "Independent",
     "age": "27",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/4/S2220190327041706.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/4/S2220190327041706.pdf",
+    "symbol": "Watermelon"
   },
   "CC-16": {
     "ITR16": "₹ 0",
     "income": "-",
     "ITR17": "₹ 0",
     "ITR18": "₹ 0",
-    "education": "12TH PASS",
+    "education": "12th pass",
     "gender": "Female",
     "pending_cases": "0",
     "assets": "₹ 6,50,000",
@@ -923,18 +951,19 @@
     "constituency": "con-2",
     "phone": "9940662028",
     "liabilities": "₹ 0",
-    "name": "V.R.GEETHALAKSHMI",
-    "education_level": "12TH PASS",
+    "name": "V.R.Geethalakshmi",
+    "education_level": "12th pass",
     "party": "Pyramid Party Of India",
     "age": "51",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/4/S2220190330054333.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/4/S2220190330054333.pdf",
+    "symbol": "Pineapple"
   },
   "CC-15": {
     "ITR16": "₹ 3,00,000",
     "income": "Photography",
     "ITR17": "₹ 3,10,000",
     "ITR18": "₹ 3,20,000",
-    "education": "9TH STANDARD",
+    "education": "9th standard",
     "gender": "Male",
     "pending_cases": "0",
     "assets": "₹ 1,49,000",
@@ -956,14 +985,15 @@
     "phone": "9840604178",
     "liabilities": "₹ 0",
     "name": "J.L. Pushparaj",
-    "education_level": "8TH PASS",
+    "education_level": "8th pass",
     "party": "Independent",
     "age": "28",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/4/S2220190327031640.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/4/S2220190327031640.pdf",
+    "symbol": "Laptop"
   },
   "CC-14": {
     "ITR16": "₹ 5,08,036",
-    "income": "income from Business cum linancial consultancy and Educational services & Renta",
+    "income": "Income from Business cum linancial consultancy and Educational services & Rental",
     "ITR17": "₹ 7,04,492",
     "ITR18": "₹ 5,76,829",
     "education": "M.B.A",
@@ -991,14 +1021,15 @@
     "education_level": "POST GRADUATE",
     "party": "Desiya Makkal Sakthi Katchi",
     "age": "43",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/4/S2220190330054129.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/4/S2220190330054129.pdf",
+    "symbol": "Football"
   },
   "CS-9": {
     "ITR16": "₹ 18,03,030",
     "income": "Fees for teaching services provided",
     "ITR17": "₹ 10,06,780",
     "ITR18": "₹ 12,51,470",
-    "education": "C.A, I.A.S OFFICER (2005 BATCH)",
+    "education": "C.A, I.A.S Officer (2005 Batch)",
     "gender": "Male",
     "pending_cases": "0",
     "assets": "₹ 2,26,54,934",
@@ -1020,10 +1051,11 @@
     "phone": "9003279233",
     "liabilities": "₹ 6,89,310",
     "name": "R. Rangarajan",
-    "education_level": "GRADUATE PROFESSIONAL",
-    "party": "Makkal Needhi  Maiam",
+    "education_level": "Graduate professional",
+    "party": "Makkal Needhi Maiam",
     "age": "40",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330070832.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330070832.pdf",
+    "symbol": "Torchlight"
   },
   "CS-8": {
     "ITR16": "₹ 3,98,790",
@@ -1055,7 +1087,8 @@
     "education_level": "POST GRADUATE",
     "party": "Pyramid Party Of India",
     "age": "69",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330070049.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330070049.pdf",
+    "symbol": "Pineapple"
   },
   "CS-7": {
     "ITR16": "₹ 2,49,880",
@@ -1087,7 +1120,8 @@
     "education_level": "GRADUATE PROFESSIONAL",
     "party": "Tamil Nadu Ilaingyar Katchi",
     "age": "29",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330071803.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330071803.pdf",
+    "symbol": "Ring"
   },
   "CS-6": {
     "ITR16": "₹ 0",
@@ -1119,7 +1153,8 @@
     "education_level": "10TH PASS",
     "party": "Makkalatchi Katchi",
     "age": "42",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330064225.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330064225.pdf",
+    "symbol": "Telephone"
   },
   "CS-5": {
     "ITR16": "₹ 0",
@@ -1151,7 +1186,8 @@
     "education_level": "SSLC SETHUPATHY HIGHER SECONDARY SCHOOL, MADURAI, 1977",
     "party": "Republican Party Of India",
     "age": "57",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190331031340.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190331031340.pdf",
+    "symbol": "Ironbox"
   },
   "CS-4": {
     "ITR16": "₹ 0",
@@ -1183,7 +1219,8 @@
     "education_level": "12TH PASS",
     "party": "Socialist Unity Centre Of India (Communist)",
     "age": "53",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330061544.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330061544.pdf",
+    "symbol": "LPG Cylinder"
   },
   "CS-12": {
     "ITR16": "₹ 0",
@@ -1215,7 +1252,8 @@
     "education_level": "POST GRADUATE",
     "party": "Naam Thamizhar Katchi",
     "age": "26",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330073938.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330073938.pdf",
+    "symbol": "Farmer"
   },
   "CS-34": {
     "ITR16": "₹ 0",
@@ -1247,7 +1285,8 @@
     "education_level": "12TH PASS",
     "party": "Independent",
     "age": "53",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330064339.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330064339.pdf",
+    "symbol": "Mouse"
   },
   "CS-3": {
     "ITR16": "₹ 6,01,940",
@@ -1281,7 +1320,8 @@
     "age": "31",
     "political_background": "D.Jayakumar(Father)",
     "political_background_link": "https://en.wikipedia.org/wiki/D._Jayakumar",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330062256.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330062256.pdf",
+    "symbol": "Two leaves"
   },
   "CS-13": {
     "ITR16": "₹ 0",
@@ -1313,7 +1353,8 @@
     "education_level": "10TH PASS, NERUPPUR HIGHER SECONDARY SCHOOL, 1997",
     "party": "Independent",
     "age": "38",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330043057.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330043057.pdf",
+    "symbol": "Pen"
   },
   "CS-35": {
     "ITR16": "₹ 0",
@@ -1345,7 +1386,8 @@
     "education_level": "GRADUATE",
     "party": "Independent",
     "age": "28",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330072126.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330072126.pdf",
+    "symbol": "Water Bottle"
   },
   "CS-2": {
     "ITR16": "₹ 30,08,390",
@@ -1379,7 +1421,8 @@
     "age": "56",
     "political_background": "V.Thangapandian(Father)",
     "political_background_link": "https://en.wikipedia.org/wiki/V._Thangapandian",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330074058.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330074058.pdf",
+    "symbol": "Rising Sun"
   },
   "CS-10": {
     "ITR16": "₹ 2,54,590",
@@ -1411,7 +1454,8 @@
     "education_level": "10TH PASS",
     "party": "Indian Christian Front",
     "age": "37",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330071054.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330071054.pdf",
+    "symbol": "Grapes"
   },
   "CS-32": {
     "ITR16": "₹ 0",
@@ -1443,7 +1487,8 @@
     "education_level": "8TH PASS",
     "party": "Independent",
     "age": "56",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330073459.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330073459.pdf",
+    "symbol": "Coconut grove"
   },
   "CS-1": {
     "ITR16": "₹ 0",
@@ -1475,7 +1520,8 @@
     "education_level": "GRADUATE",
     "party": "Bahujan Samaj Party",
     "age": "38",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330070416.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330070416.pdf",
+    "symbol": "Elephant"
   },
   "CS-11": {
     "ITR16": "₹ 0",
@@ -1507,7 +1553,8 @@
     "education_level": "10TH PASS",
     "party": "Desiya Makkal Sakthi Katchi",
     "age": "64",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330065907.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330065907.pdf",
+    "symbol": "Football"
   },
   "CS-33": {
     "ITR16": "₹ 0",
@@ -1539,7 +1586,8 @@
     "education_level": "GRADUATE",
     "party": "Independent",
     "age": "32",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330070621.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330070621.pdf",
+    "symbol": "Violin"
   },
   "CS-30": {
     "ITR16": "₹ 4,80,000",
@@ -1571,7 +1619,8 @@
     "education_level": "8TH PASS",
     "party": "Independent",
     "age": "64",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330064759.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330064759.pdf",
+    "symbol": "Pot"
   },
   "CS-31": {
     "ITR16": "₹ 0",
@@ -1603,7 +1652,8 @@
     "education_level": "GRADUATE",
     "party": "Independent",
     "age": "28",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330064857.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330064857.pdf",
+    "symbol": "Fountain"
   },
   "CS-29": {
     "ITR16": "₹ 11,14,010",
@@ -1635,7 +1685,8 @@
     "education_level": "POST GRADUATE",
     "party": "Independent",
     "age": "40",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330065818.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330065818.pdf",
+    "symbol": "Key"
   },
   "CS-27": {
     "ITR16": "₹ 0",
@@ -1667,7 +1718,8 @@
     "education_level": "10TH PASS",
     "party": "Independent",
     "age": "51",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330065037.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330065037.pdf",
+    "symbol": "Camera"
   },
   "CS-28": {
     "ITR16": "₹ 0",
@@ -1699,7 +1751,8 @@
     "education_level": "GRADUATE PROFESSIONAL",
     "party": "Independent",
     "age": "48",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330073147.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330073147.pdf",
+    "symbol": "Cooker"
   },
   "CS-25": {
     "ITR16": "₹ 3,10,940",
@@ -1731,7 +1784,8 @@
     "education_level": "POST GRADUATE",
     "party": "Independent",
     "age": "49",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330072656.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330072656.pdf",
+    "symbol": "Whistle"
   },
   "CS-26": {
     "ITR16": "₹ 40,15,335",
@@ -1765,7 +1819,8 @@
     "age": "55",
     "political_background": "Ex-MLA",
     "political_background_link": "http://www.myneta.info/tamilnadu2011/candidate.php?candidate_id=257",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330072816.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330072816.pdf",
+    "symbol": "Gift box"
   },
   "CS-23": {
     "ITR16": "₹ 0",
@@ -1797,7 +1852,8 @@
     "education_level": "GRADUATE PROFESSIONAL",
     "party": "Independent",
     "age": "28",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330065313.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330065313.pdf",
+    "symbol": "Computer"
   },
   "CS-24": {
     "ITR16": "₹ 0",
@@ -1829,7 +1885,8 @@
     "education_level": "5TH PASS",
     "party": "Independent",
     "age": "50",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330072614.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330072614.pdf",
+    "symbol": "Crane"
   },
   "CS-21": {
     "ITR16": "₹ 0",
@@ -1861,7 +1918,8 @@
     "education_level": "GRADUATE",
     "party": "Independent",
     "age": "33",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330072017.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330072017.pdf",
+    "symbol": "Cube"
   },
   "CS-22": {
     "ITR16": "₹ 2,83,110",
@@ -1893,7 +1951,8 @@
     "education_level": "GRADUATE PROFESSIONAL",
     "party": "Independent",
     "age": "35",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330071608.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330071608.pdf",
+    "symbol": "Diamond"
   },
   "CS-20": {
     "ITR16": "₹ 0",
@@ -1925,7 +1984,8 @@
     "education_level": "GRADUATE PROFESSIONAL",
     "party": "Independent",
     "age": "33",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330071858.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330071858.pdf",
+    "symbol": "Tractor"
   },
   "CS-40": {
     "ITR16": "₹ 0",
@@ -1957,7 +2017,8 @@
     "education_level": "OTHERS",
     "party": "Independent",
     "age": "44",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330073254.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330073254.pdf",
+    "symbol": "Scissors"
   },
   "CS-18": {
     "ITR16": "₹ 0",
@@ -1989,7 +2050,8 @@
     "education_level": "GRADUATE",
     "party": "Independent",
     "age": "46",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330072436.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330072436.pdf",
+    "symbol": "Syringe"
   },
   "CS-19": {
     "ITR16": "₹ 14,30,812",
@@ -2021,7 +2083,8 @@
     "education_level": "GRADUATE",
     "party": "Independent",
     "age": "43",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330072349.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330072349.pdf",
+    "symbol": "Television"
   },
   "CS-16": {
     "ITR16": "₹ 0",
@@ -2053,7 +2116,8 @@
     "education_level": "GRADUATE PROFESSIONAL",
     "party": "Independent",
     "age": "49",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330073721.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330073721.pdf",
+    "symbol": "Shirt"
   },
   "CS-38": {
     "ITR16": "₹ 25,08,624",
@@ -2085,7 +2149,8 @@
     "education_level": "GRADUATE",
     "party": "Independent",
     "age": "36",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330062034.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330062034.pdf",
+    "symbol": "Cauliflower"
   },
   "CS-17": {
     "ITR16": "₹ 0",
@@ -2117,7 +2182,8 @@
     "education_level": "-",
     "party": "Independent",
     "age": "51",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330073408.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330073408.pdf",
+    "symbol": "Backpack"
   },
   "CS-39": {
     "ITR16": "₹ 0",
@@ -2149,7 +2215,8 @@
     "education_level": "12TH PASS",
     "party": "Independent",
     "age": "43",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330073835.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330073835.pdf",
+    "symbol": "Helicopter"
   },
   "CS-14": {
     "ITR16": "₹ 0",
@@ -2181,7 +2248,8 @@
     "education_level": "GRADUATE PROFESSIONAL",
     "party": "Independent",
     "age": "47",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330070730.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330070730.pdf",
+    "symbol": "Car"
   },
   "CS-36": {
     "ITR16": "₹ 0",
@@ -2213,7 +2281,8 @@
     "education_level": "GRADUATE PROFESSIONAL",
     "party": "Independent",
     "age": "36",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330065502.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330065502.pdf",
+    "symbol": "Hat"
   },
   "CS-15": {
     "ITR16": "₹ 0",
@@ -2245,7 +2314,8 @@
     "education_level": "GRADUATE",
     "party": "Independent",
     "age": "45",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330071431.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330071431.pdf",
+    "symbol": "Tire"
   },
   "CS-37": {
     "ITR16": "₹ 0",
@@ -2277,7 +2347,8 @@
     "education_level": "OTHERS",
     "party": "Independent",
     "age": "29",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330070147.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/3/S2220190330070147.pdf",
+    "symbol": "Axesaw"
   },
   "CN-9": {
     "ITR16": "₹ 6,78,190",
@@ -2309,7 +2380,8 @@
     "education_level": "POST GRADUATE",
     "party": "Peoples Party Of India (Secular)",
     "age": "38",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/2/S2220190330080644.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/2/S2220190330080644.pdf",
+    "symbol": "Bread"
   },
   "CN-8": {
     "ITR16": "₹ 0",
@@ -2341,7 +2413,8 @@
     "education_level": "POST GRADUATE",
     "party": "Makkalatchi Katchi",
     "age": "35",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/2/S2220190330082012.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/2/S2220190330082012.pdf",
+    "symbol": "Telephone"
   },
   "CN-7": {
     "ITR16": "₹ 0",
@@ -2373,7 +2446,8 @@
     "education_level": "10TH PASS",
     "party": "Socialist Unity Centre Of India (Communist)",
     "age": "42",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/2/S2220190331043239.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/2/S2220190331043239.pdf",
+    "symbol": "LPG Cylinder"
   },
   "CN-6": {
     "ITR16": "₹ 0",
@@ -2405,7 +2479,8 @@
     "education_level": "GRADUATE",
     "party": "Naam Thamizhar Katchi",
     "age": "33",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/2/S2220190330103145.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/2/S2220190330103145.pdf",
+    "symbol": "Farmer"
   },
   "CN-5": {
     "ITR16": "₹ 1,80,000",
@@ -2437,7 +2512,8 @@
     "education_level": "GRADUATE",
     "party": "Tamil Nadu Ilaingyar Katchi",
     "age": "44",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/2/S2220190330081227.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/2/S2220190330081227.pdf",
+    "symbol": "Ring"
   },
   "CN-4": {
     "ITR16": "₹ 3,23,350",
@@ -2469,7 +2545,8 @@
     "education_level": "POST GRADUATE",
     "party": "Desiya Makkal Sakthi Katchi",
     "age": "54",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/2/S2220190330094909.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/2/S2220190330094909.pdf",
+    "symbol": "Football"
   },
   "CN-3": {
     "ITR16": "₹ 0",
@@ -2501,7 +2578,8 @@
     "education_level": "POST GRADUATE",
     "party": "Bahujan Samaj Party",
     "age": "43",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/2/S2220190330094708.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/2/S2220190330094708.pdf",
+    "symbol": "Elephant"
   },
   "CN-2": {
     "ITR16": "₹ 30,62,490",
@@ -2534,6 +2612,7 @@
     "party": "Dravida Munnetra Kazhagam",
     "age": "49",
     "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/2/S2220190330102449.pdf",
+    "symbol": "Rising Sun",
     "next": "CN-3",
     "political_background": "Arcot.N.VeeraSami(Father)",
     "political_background_link": "https://en.wikipedia.org/wiki/Arcot_N._Veeraswami"
@@ -2569,6 +2648,7 @@
     "party": "Desiya Murpokku Dravida Kazhagam",
     "age": "65",
     "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/2/S2220190330081310.pdf",
+    "symbol": "Nagara/Murasu",
     "next": "CN-2"
   },
   "CN-13": {
@@ -2601,7 +2681,8 @@
     "education_level": "GRADUATE PROFESSIONAL",
     "party": "Independent",
     "age": "28",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/2/S2220190330095006.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/2/S2220190330095006.pdf",
+    "symbol": "Sofa"
   },
   "CN-14": {
     "ITR16": "₹ 0",
@@ -2633,7 +2714,8 @@
     "education_level": "OTHERS",
     "party": "Independent",
     "age": "43",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/2/S2220190330093032.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/2/S2220190330093032.pdf",
+    "symbol": "Giftbox"
   },
   "CN-15": {
     "ITR16": "₹ 0",
@@ -2665,7 +2747,8 @@
     "education_level": "GRADUATE PROFESSIONAL",
     "party": "Independent",
     "age": "29",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/2/S2220190330080235.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/2/S2220190330080235.pdf",
+    "symbol": "Laptop"
   },
   "CN-16": {
     "ITR16": "₹ 0",
@@ -2697,7 +2780,8 @@
     "education_level": "POST GRADUATE",
     "party": "Independent",
     "age": "42",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/2/S2220190330082552.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/2/S2220190330082552.pdf",
+    "symbol": "Air Conditioner"
   },
   "CN-20": {
     "ITR16": "₹ 0",
@@ -2729,7 +2813,8 @@
     "education_level": "GRADUATE PROFESSIONAL",
     "party": "Independent",
     "age": "46",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/2/S2220190330081609.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/2/S2220190330081609.pdf",
+    "symbol": "Streetlight"
   },
   "CN-10": {
     "ITR16": "₹ 15,05,072",
@@ -2761,7 +2846,8 @@
     "education_level": "POST GRADUATE",
     "party": "Makkal Needhi  Maiam",
     "age": "62",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/2/S2220190330103509.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/2/S2220190330103509.pdf",
+    "symbol": "Torchlight"
   },
   "CN-21": {
     "ITR16": "₹ 0",
@@ -2793,7 +2879,8 @@
     "education_level": "12TH PASS",
     "party": "Independent",
     "age": "25",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/2/S2220190330092733.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/2/S2220190330092733.pdf",
+    "symbol": "Bucket"
   },
   "CN-11": {
     "ITR16": "₹ 0",
@@ -2825,7 +2912,8 @@
     "education_level": "12TH PASS",
     "party": "Independent",
     "age": "38",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/2/S2220190330083656.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/2/S2220190330083656.pdf",
+    "symbol": "Balloon"
   },
   "CN-22": {
     "ITR16": "₹ 2,81,833",
@@ -2857,7 +2945,8 @@
     "education_level": "5TH PASS",
     "party": "Independent",
     "age": "63",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/2/S2220190330074730.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/2/S2220190330074730.pdf",
+    "symbol": "Box"
   },
   "CN-12": {
     "ITR16": "₹ 0",
@@ -2889,7 +2978,8 @@
     "education_level": "GRADUATE PROFESSIONAL",
     "party": "Independent",
     "age": "38",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/2/S2220190330085418.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/2/S2220190330085418.pdf",
+    "symbol": "Diamond"
   },
   "CN-23": {
     "ITR16": "₹ 0",
@@ -2921,7 +3011,8 @@
     "education_level": "ILLITERATE",
     "party": "Independent",
     "age": "44",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/2/S2220190330082327.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/2/S2220190330082327.pdf",
+    "symbol": "Hat"
   },
   "CN-17": {
     "ITR16": "₹ 0",
@@ -2953,7 +3044,8 @@
     "education_level": "GRADUATE PROFESSIONAL",
     "party": "Independent",
     "age": "43",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/2/S2220190330082138.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/2/S2220190330082138.pdf",
+    "symbol": "Cooker"
   },
   "CN-18": {
     "ITR16": "₹ 0",
@@ -2985,7 +3077,8 @@
     "education_level": "GRADUATE PROFESSIONAL",
     "party": "Independent",
     "age": "44",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/2/S2220190330080652.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/2/S2220190330080652.pdf",
+    "symbol": "Pot"
   },
   "CN-19": {
     "ITR16": "₹ 0",
@@ -3017,6 +3110,7 @@
     "education_level": "GRADUATE PROFESSIONAL",
     "party": "Independent",
     "age": "39",
-    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/2/S2220190330082435.pdf"
+    "affidavit": "https://suvidha.eci.gov.in/uploads/affidavit/2019/PC/S22/2/S2220190330082435.pdf",
+    "symbol": "Suitcase"
   }
 }
