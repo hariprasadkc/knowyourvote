@@ -45,7 +45,7 @@ type Candidate struct {
 	Livelihood         string `json:"profession"`
 	Income             string
 	Party              string
-	PartySymbol        string
+	PartySymbol        string `json:"symbol"`
 	Gender             string
 	ITR16              string
 	ITR17              string
