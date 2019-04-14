@@ -12,24 +12,24 @@
             <table class="table table-bordered mb-0">
                 <tbody>
                     <tr>
-                        <td class="text-nowrap w-25">Constituency Name</td>
+                        <td class="text-nowrap w-25 font-weight-bold">Constituency Name</td>
                         <td class="text-nowrap">{{.Name}}</td>
                     </tr>
                     <tr>
-                        <td class="text-nowrap w-25">MP Name</td>
+                        <td class="text-nowrap w-25 font-weight-bold">MP Name</td>
                         <td class="text-nowrap">{{.Current.Name}}</td>
                     </tr>
                     <tr>
-                        <td class="text-nowrap w-25">MP Party</td>
+                        <td class="text-nowrap w-25 font-weight-bold">MP Party</td>
                         <td class="text-nowrap">{{.Current.Party}}</td>
                     </tr>
                     <tr>
-                        <td class="text-nowrap w-25">Reference</td>
+                        <td class="text-nowrap w-25 font-weight-bold">Reference</td>
                         <td class="text-nowrap"><a class="mr-2" href="{{.Current.Link}}" target="_blank">Find your MP</a> | <a class="ml-2" href="{{.Current.Wiki}}" target="_blank">Wikipedia</a></td>
                     </tr>
                     <tr>
-                        <td class="text-nowrap w-25">Candidates</td>
-                        <td class="text-nowrap">Total : {{len .Candidates}} <br> Male : {{.Male}} <br> Female : {{.Female}} <br> Transgender : {{.Transgender}}</td>
+                        <td class="text-nowrap w-25 font-weight-bold">Candidates</td>
+                        <td class="">{{len .Candidates}} (Male : {{.Male}}, Female : {{.Female}}, Transgender : {{.Transgender}})</td>
                     </tr>
                 </tbody>
             </table>
