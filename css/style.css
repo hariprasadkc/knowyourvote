@@ -112,6 +112,7 @@ input[type="number"].pincode-input::-webkit-outer-spin-button {
 
 input[type="number"].pincode-input {
     -moz-appearance: textfield;
+    -webkit-appearance: textfield; 
 }
 
 .profile-picture-container{
