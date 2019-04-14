@@ -17,6 +17,7 @@ $(document).ready(function() {
             $("#pincodeResult").html(errorMsg);
         }
     });
+});
     
 function next(id){
     var str = id.split('-');
