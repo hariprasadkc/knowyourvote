@@ -104,8 +104,8 @@ html, body {
   margin:1rem auto;
 }
 
-input[type=number].pincode-input::-webkit-inner-spin-button, 
-input[type=number].pincode-input::-webkit-outer-spin-button { 
+input[type="number"].pincode-input::-webkit-inner-spin-button, 
+input[type="number"].pincode-input::-webkit-outer-spin-button { 
   -webkit-appearance: none; 
   margin: 0; 
 }
