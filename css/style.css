@@ -3,6 +3,9 @@
   --main-container-bg-color: #F5F5F6;
   --card-box-shadow: 0px 1px 2px 1px rgba(52, 53, 55, 0.18);
   --border-color: #dee2e6;
+  --card-container-height:305px;
+  --card-container-width:275px;
+  --candidate-image-wh-size:125px;
 }
 
 html, body {
@@ -53,55 +56,42 @@ html, body {
   background-color: var(--main-container-bg-color);
 }
 
-/*candidates carousel related css*/
-.candidates-carousel .carousel-control-prev-icon{
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23007bff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+.card-grid {
+  /* Grid Fallback */
+  display: flex;
+  flex-wrap: wrap;
+  
+  /* Supports Grid */
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(var(--card-container-width), 1fr));
+  grid-auto-rows: minmax(var(--card-container-height), auto);
+  grid-gap: 1em;
 }
 
-.candidates-carousel .carousel-control-next-icon{
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23007bff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+.card-container {
+  height:var(--card-container-height);
+  
+  /* Flex Fallback */
+  margin-left: 5px;
+  margin-right: 5px;
+  flex: 1 1 var(--card-container-height);
 }
 
-.candidates-carousel .carousel-control-button{
-  padding:1rem;
-  background-color: var(--color-white);
-  border-radius: 50%;
-  height: 50px;
-  width: 50px;
-  box-shadow: var(--card-box-shadow);
+.card-container .candidate-img {
+  width: var(--candidate-image-wh-size);
+  height: var(--candidate-image-wh-size);
+}
+.card-container .candidate-card {
+  width: 100%;
+  height: 100%;
+  text-align: center;
 }
 
-.candidates-carousel .carousel-control-prev,.candidates-carousel .carousel-control-next,.candidates-carousel .carousel-control-next:focus,.candidates-carousel .carousel-control-next:hover,.candidates-carousel .carousel-control-prev:focus,.candidates-carousel .carousel-control-prev:hover{
-  opacity: 1;
-}
-
-
-@media (max-width: 576px) {
-  .candidates-carousel .carousel-control-prev{
-    margin-left: -10px;
+/* If Grid is supported, remove the margin we set for the fallback */
+@supports (display: grid) {
+  .card-container {
+    margin: 0;
   }
-
-  .candidates-carousel .carousel-control-next{
-    margin-right: -10px;
-  }
- }
-
-/*candidate card related css*/
-.candidate-card{
-  width: 300px;
-}
-
-@media (min-width: 576px) {
-  .candidate-card{
-  width: 400px;
-  }
- }
-
-.candidate-card .candidate-img{
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  margin:1rem auto;
 }
 
 input[type="number"].pincode-input::-webkit-inner-spin-button, 
@@ -115,7 +105,7 @@ input[type="number"].pincode-input {
     -webkit-appearance: textfield; 
 }
 
-.profile-picture-container{
+.profile-picture-container {
 border-right: none;
 overflow: hidden;
 }
@@ -126,12 +116,12 @@ overflow: hidden;
   }
  }
 
-.profile-picture-container .profile-picture{
+.profile-picture-container .profile-picture {
   max-height: 200px !important;
   max-width: 200px !important;
 }
 
-.candidate-info-table td{
+.candidate-info-table td {
   word-break: break-all;
 }
 
@@ -140,7 +130,7 @@ overflow: hidden;
   cursor: pointer !important;
 }
 
-.pre-wrap{
+.pre-wrap {
     white-space: pre-wrap;
     white-space: -moz-pre-wrap; 
     white-space: -pre-wrap;      
