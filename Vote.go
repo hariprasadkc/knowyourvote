@@ -68,7 +68,8 @@ type Candidate struct {
 type Constituency struct {
 	Id          string
 	Name        string
-	Areas       []string
+	Areas       string
+	Wiki        string
 	Current     MP `json:"mp"`
 	Candidates  []CandidateMeta
 	Male        string

@@ -2,17 +2,11 @@
   "con-1": {
     "id": "con-1",
     "name": "Chennai North",
-    "areas": [
-      "Royapuram",
-      "Kolathur",
-      "T.V.K.Nagar",
-      "Perambur",
-      "Thiruvottiyur",
-      "Dr. Radhakrishnan Nagar"
-    ],
+    "areas": "Royapuram, Kolathur, T.V.K.Nagar, Perambur, Thiruvottiyur, Dr.Radhakrishnan Nagar",
+    "wiki":"https://en.wikipedia.org/wiki/Chennai_North_(Lok_Sabha_constituency)",
     "mp": {
-      "name": "T.G.Venkatesh Babu",
-      "party": "ADMK",
+      "name": "T.G. Venkatesh Babu",
+      "party": "All India Anna Dravida Munnerta Kazhagam",
       "link": "https://www.prsindia.org/mptrack/tgvenkateshbabu",
       "wiki": "https://en.wikipedia.org/wiki/T._G._Venkatesh_Babu"
     },
@@ -301,17 +295,11 @@
   "con-2": {
     "id": "con-2",
     "name": "Chennai Central",
-    "areas": [
-      "Villivakkam",
-      "Egmore",
-      "Harbour",
-      "Chepauk",
-      "Thousand Lights",
-      "Anna Nagar"
-    ],
+    "areas": "Villivakkam, Egmore, Harbour, Chepauk, Thousand Lights, Anna Nagar",
+    "wiki": "https://en.wikipedia.org/wiki/Chennai_Central_(Lok_Sabha_constituency)",
     "mp": {
       "name": "S.R. Vijayakumar",
-      "party": "ADMK",
+      "party": "All India Anna Dravida Munnerta Kazhagam",
       "link": "https://www.prsindia.org/mptrack/srvijayakumar",
       "wiki": "https://en.wikipedia.org/wiki/S._R._Vijayakumar"
     },
@@ -696,21 +684,11 @@
   "con-3": {
     "id": "con-3",
     "name": "Chennai South",
-    "areas": [
-      "T.Nagar",
-      "Triplicane",
-      "Mylapore",
-      "Saidapet",
-      "Alandur",
-      "Tambaram",
-      "Virugambakkam",
-      "Saidapet",
-      "Velachery",
-      "Sholinganallur"
-    ],
+    "areas": "T.Nagar, Triplicane, Mylapore, Saidapet, Alandur, Tambaram, Virugambakkam, Velachery, Sholinganallur",
+    "wiki": "https://en.wikipedia.org/wiki/Chennai_South_(Lok_Sabha_constituency)",
     "mp": {
-      "name": "S.R. Vijayakumar",
-      "party": "ADMK",
+      "name": "J. Jayavardhan",
+      "party": "All India Anna Dravida Munnerta Kazhagam",
       "link": "https://www.prsindia.org/mptrack/jjayavardhan",
       "wiki": "https://en.wikipedia.org/wiki/J._Jayavardhan"
     },
