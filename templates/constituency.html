@@ -54,40 +54,23 @@
 </section>
 <section>
     <h3 class="text-center mt-4 mt-sm-5 mb-4 font-weight-light">{{.Name}} - Candidates List</h3>
-    <div id="candidateCarousel" class="carousel slide candidates-carousel" data-ride="carousel" data-interval="false" data-wrap="false">
-        <div class="carousel-inner">
-            {{range $index,$element := .Candidates}}
-            <div class="carousel-item {{if eq $index 0}} active {{end}}">
-               <div class="card mx-auto candidate-card">
-                <img class="candidate-img" src="photos/{{.Id}}.JPG" alt="{{.Name}}">
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item text-truncate">Name: {{.Name}}</li>
-                    <li class="list-group-item text-truncate">Age: {{.Age}}</li>
-                    <li class="list-group-item text-truncate">Qualification: {{.Qualification}}</li>
-                    <li class="list-group-item text-truncate">Phone: {{.Phone}}</li>
-                    <li class="list-group-item text-truncate">Assets: {{.Assets}}</li>
-                    <li class="list-group-item text-truncate">Livelihood: {{.Livelihood}}</li>
-                    <li class="list-group-item text-truncate">Party: {{.Party}}</li>
-                </ul>
-                <div class="card-body text-center">
-                    <a href="/getcandidate?candidate={{.Id}}" class="card-link">Full Details</a>
+    <div class="card-grid my-5">
+        <!-- This "card-container" should be repeated for each candidate --> 
+        <div class="card-container card-box"> 
+            <div class="card candidate-card">
+                <div class="p-3 border-bottom d-flex justify-content-center align-items-center">
+                    <img class="candidate-img rounded-circle mx-auto" src="photos/{{.Id}}.JPG" alt="{{.Name}}" style="height: 125px; width: 125px;"></div>
+                <div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item font-weight-bold">{{.Name}}</li>
+                        <li class="list-group-item text-secondary text-truncate">{{.Party}}</li>
+                    </ul>
+                </div>
+                <div class="card-footer">
+                    <a href="#" class="card-link">View Full Details</a>
                 </div>
             </div>
         </div>
-        {{end}}
     </div>
-    <a class="carousel-control-prev" href="#candidateCarousel" role="button" data-slide="prev">
-        <div class="carousel-control-button d-flex flex-row justify-content-center align-items-center">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        </div>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#candidateCarousel" role="button" data-slide="next">
-        <div class="carousel-control-button d-flex flex-row justify-content-center align-items-center">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        </div>
-        <span class="sr-only">Next</span>
-    </a>
-</div>
 </section>
 {{end}}
