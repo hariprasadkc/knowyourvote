@@ -55,7 +55,7 @@
 <section>
     <h3 class="text-center mt-4 mt-sm-5 mb-4 font-weight-light">{{.Name}} - Candidates List</h3>
     <div class="card-grid my-5">
-        <!-- This "card-container" should be repeated for each candidate --> 
+    	{{range .Candidates}}
         <div class="card-container card-box"> 
             <div class="card candidate-card">
                 <div class="p-3 border-bottom d-flex justify-content-center align-items-center">
@@ -67,10 +67,11 @@
                     </ul>
                 </div>
                 <div class="card-footer">
-                    <a href="#" class="card-link">View Full Details</a>
+                    <a href="/getcandidate?candidate={{.Id}}" class="card-link">View Full Details</a>
                 </div>
             </div>
         </div>
+        {{end}}
     </div>
 </section>
 {{end}}
