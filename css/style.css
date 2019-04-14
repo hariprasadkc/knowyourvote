@@ -121,8 +121,8 @@ overflow: hidden;
   max-width: 200px !important;
 }
 
-.candidate-info-table td {
-  word-break: break-all;
+.info-table td {
+  word-break: break-word;
 }
 
 .link{
