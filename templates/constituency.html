@@ -7,52 +7,48 @@
 </section>
 <section>
     <h3 class="text-center mt-3 mb-4 font-weight-light">{{.Name}} - Constituency Info</h3>
-    <div class="card-box">
-        <div class="table-responsive w-100 d-block">
+    <div class="card-box w-100 d-block">
             <table class="table mb-0">
                 <tbody>
                     <tr>
                         <td class="text-nowrap w-25 font-weight-bold">Constituency Name</td>
-                        <td class="text-nowrap">{{.Name}}</td>
+                        <td>{{.Name}}</td>
                     </tr>
                     <tr>
                     	<td class="text-nowrap w-25 font-weight-bold">Constituency Segments</td>
-                    	<td class="text-nowrap">{{.Areas}}</td>
+                    	<td>{{.Areas}}</td>
                     </tr>
                     <tr>
                         <td class="text-nowrap w-25 font-weight-bold">Candidates</td>
-                        <td class="">{{len .Candidates}} (Male : {{.Male}}, Female : {{.Female}}, Transgender : {{.Transgender}})</td>
+                        <td>{{len .Candidates}} (Male : {{.Male}}, Female : {{.Female}}, Transgender : {{.Transgender}})</td>
                     </tr>
                     <tr>
                     	<td class="text-nowrap w-25 font-weight-bold">Reference</td>
-                    	<td class="text-nowrap"><a class="mr-2" href="{{.Wiki}}" target="_blank">Wikipedia</a></td>
+                    	<td><a class="mr-2" href="{{.Wiki}}" target="_blank">Wikipedia</a></td>
                     </tr>
                 </tbody>
             </table>
         </div>
-    </div>
 </section>
 <section>
     <h3 class="text-center mt-4 mt-sm-5 mb-4 font-weight-light">{{.Name}} - MP Information</h3>
-    <div class="card-box">
-        <div class="table-responsive w-100 d-block">
+    <div class="card-box w-100 d-block">
             <table class="table mb-0">
                 <tbody>
                 	<tr>
                         <td class="text-nowrap w-25 font-weight-bold">MP Name</td>
-                        <td class="text-nowrap">{{.Current.Name}}</td>
+                        <td>{{.Current.Name}}</td>
                     </tr>
                     <tr>
                         <td class="text-nowrap w-25 font-weight-bold">MP Party</td>
-                        <td class="text-nowrap">{{.Current.Party}}</td>
+                        <td>{{.Current.Party}}</td>
                     </tr>
                     <tr>
                         <td class="text-nowrap w-25 font-weight-bold">Reference</td>
-                        <td class="text-nowrap"><a class="mr-2" href="{{.Current.Link}}" target="_blank">Parliament Records</a> | <a class="ml-2" href="{{.Current.Wiki}}" target="_blank">Wikipedia</a></td>
+                        <td><a class="mr-2" href="{{.Current.Link}}" target="_blank">Parliament Records</a> | <a class="ml-2" href="{{.Current.Wiki}}" target="_blank">Wikipedia</a></td>
                     </tr>
                 </tbody>
             </table>
-        </div>
     </div>
 </section>
 <section>
