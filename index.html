@@ -2,72 +2,72 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Candidate Info for General Election 2019 - Chennai</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/lato.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Candidate Info for General Election 2019 - Chennai</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/lato.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
-    <div class="container-fluid body-container">
-        <header>
-            <nav class="navbar navbar-dark bg-primary fixed-top">
-                <a class="navbar-brand text-truncate" href="#">Candidate Info for General Election 2019 - Chennai</a>
-            </nav>
-        </header>
-        <div class="main-container d-flex flex-column">
-            <div class="container module-container d-flex flex-column flex-grow">
-                <section id="constituencyGroup">
-                    <div>
-                        <h2 class="text-center mt-4 mt-sm-5 mb-4">Choose your constituency</h2>
-                        <div class="card-deck pt-1 mb-3 constituency-group">
-                            <div class="card text-center constituency-card">
-                                <a href="/getconstituency?constituency=con-1">
-                                    <div class="card-body d-flex justify-content-center align-items-center">
-                                        <h5 class="card-title m-0">Chennai North</h5>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="card text-center constituency-card">
-                                <a href="/getconstituency?constituency=con-2">
-                                    <div class="card-body d-flex justify-content-center align-items-center">
-                                        <h5 class="card-title m-0">Chennai Central</h5>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="card text-center constituency-card">
-                                <a href="/getconstituency?constituency=con-3">
-                                    <div class="card-body d-flex justify-content-center align-items-center">
-                                        <h5 class="card-title m-0">Chennai South</h5>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="d-flex mb-2">
-                        <small class="mx-auto text-muted">OR</small>
-                    </div>
-                    <div>
-                        <h4 class="text-center">Don't know your constituency?</h4>
-                        <div class="input-group mt-4 mx-auto col-12 col-sm-6">
-                            <input id="pincodeInput" class="form-control pincode-input" placeholder="Enter your pincode" aria-label="area pincode" type="number" maxlength="6" min="600000" max="699999">
-                            <div class="input-group-append">
-                                <button id="pincodeSubmit" class="btn btn-outline-primary" type="button" value="Submit">Submit</button>
-                            </div>
-                        </div>
-                        <div id="pincodeResult" class="my-3 text-center d-flex justify-content-center align-items-center"></div>
-                    </div>
-                </section>
-            </div>
-            <div id="disclaimerFooter" class="bg-dark p-3 text-center text-light">
-    		 	<div>
-    		 		<span>Made with</span>
-    		 		<i class="icon-love">
-    		 			<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 57.947 57.947" xml:space="preserve">
-							 <g>
-							 	<path style="fill:#ec407a" d="M28.947,56.486c15.685-11.277,23.532-21.592,27.222-29.46c4.311-9.193,0.561-20.589-8.845-24.413
+	<div class="container-fluid body-container">
+		<header>
+			<nav class="navbar navbar-dark bg-primary fixed-top">
+				<a class="navbar-brand text-truncate" href="#">Candidate Info for General Election 2019 - Chennai</a>
+			</nav>
+		</header>
+		<div class="main-container d-flex flex-column">
+			<div class="container module-container d-flex flex-column flex-grow">
+				<section id="constituencyGroup">
+					<div>
+						<h2 class="text-center mt-4 mt-sm-5 mb-4">Choose your constituency</h2>
+						<div class="card-deck pt-1 mb-3 constituency-group">
+							<div class="card text-center constituency-card">
+								<a href="/getconstituency?constituency=con-1">
+									<div class="card-body d-flex justify-content-center align-items-center">
+										<h5 class="card-title m-0">Chennai North</h5>
+									</div>
+								</a>
+							</div>
+							<div class="card text-center constituency-card">
+								<a href="/getconstituency?constituency=con-2">
+									<div class="card-body d-flex justify-content-center align-items-center">
+										<h5 class="card-title m-0">Chennai Central</h5>
+									</div>
+								</a>
+							</div>
+							<div class="card text-center constituency-card">
+								<a href="/getconstituency?constituency=con-3">
+									<div class="card-body d-flex justify-content-center align-items-center">
+										<h5 class="card-title m-0">Chennai South</h5>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="d-flex mb-2">
+						<small class="mx-auto text-muted">OR</small>
+					</div>
+					<div>
+						<h4 class="text-center">Don't know your constituency?</h4>
+						<div class="input-group mt-4 mx-auto col-12 col-sm-6">
+							<input id="pincodeInput" class="form-control pincode-input" placeholder="Enter your pincode" aria-label="area pincode" type="number" maxlength="6" min="600000" max="699999">
+							<div class="input-group-append">
+								<button id="pincodeSubmit" class="btn btn-outline-primary" type="button" value="Submit">Submit</button>
+							</div>
+						</div>
+						<div id="pincodeResult" class="my-3 text-center d-flex justify-content-center align-items-center"></div>
+					</div>
+				</section>
+			</div>
+			<div id="disclaimerFooter" class="bg-dark p-3 text-center text-light">
+				<div>
+					<span>Made with</span>
+					<i class="icon-love">
+						<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 57.947 57.947" xml:space="preserve">
+							<g>
+								<path style="fill:#ec407a" d="M28.947,56.486c15.685-11.277,23.532-21.592,27.222-29.46c4.311-9.193,0.561-20.589-8.845-24.413
 								C36.268-1.88,28.947,8.486,28.947,8.486S21.678-1.907,10.623,2.588C1.217,6.412-2.533,17.808,1.778,27.001
 								C5.468,34.868,13.262,45.21,28.947,56.486z"/>
 							</g>
@@ -79,13 +79,24 @@
 					<a class="text-light" href="https://github.com/" target="_blank" rel="noopener">Github</a>
 				</div>
 				<div class="my-3">Send us your feedback to <a class="text-light" href="mailto:incubator.webmaster@gmail.com">incubator.webmaster@gmail.com</a>.</div>
-   	        </div>
-        </div>
-    </div>
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/bootstrap.min.js"></script>	
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+		var rumMOKey='414f779dfc598ec7cb6a4c73090c9221';
+		(function(){
+			if(window.performance && window.performance.timing && window.performance.navigation) {
+				var site24x7_rum_beacon=document.createElement('script');
+				site24x7_rum_beacon.async=true;
+				site24x7_rum_beacon.setAttribute('src','//static.site24x7rum.com/beacon/site24x7rum-min.js?appKey='+rumMOKey);
+				document.getElementsByTagName('head')[0].appendChild(site24x7_rum_beacon);
+			}
+		})(window)
+	</script>	
 </body>
 
 </html>
