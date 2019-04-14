@@ -8,122 +8,138 @@
 </section>
 <section>
     <h3 class="text-center mt-3 mb-4 font-weight-light">Candidate Info - {{.Name}}</h3>
-    <div class="card-box">
-        <div class="w-100">
-            <div class="gradient-bg profile-header d-flex justify-content-center align-items-center">
-                <div class="profile-picture-container">
-                    <img class="profile-picture" src="photos/{{.Id}}.JPG" alt="Card image cap">
-                </div>
+    <section class="mb-5">
+        <h4 class="mb-3">Personal Information</h4>
+        <div class="card-box row mx-0">
+            <div class="py-3 col-sm-4 col-12 d-flex justify-content-center align-items-center profile-picture-container">
+                <img class="profile-picture" src="photos/{{.Id}}.JPG" alt="{{.Name}}">
+            </div>
+
+            <div class="col-sm-8 col-12 px-0">
+                <table class="table mb-0 candidate-info-table">
+                    <tbody>
+                        <tr>
+                            <td class="w-25 text-nowrap">Name</td>
+                            <td>{{.Name}}</td>
+                        </tr>
+                        <tr>
+                            <td class="w-25 text-nowrap">Age</td>
+                            <td>{{.Age}} years</td>
+                        </tr>
+                        <tr>
+                            <td class="w-25 text-nowrap">Gender</td>
+                            <td>{{.Gender}}</td>
+                        </tr>
+                        <tr>
+                            <td class="w-25 text-nowrap">Phone</td>
+                            <td>{{.Phone}}</td>
+                        </tr>
+                        <tr>
+                            <td class="w-25 text-nowrap">Email</td>
+                            <td>{{.Email}}</td>
+                        </tr>
+                        <tr>
+                            <td class="w-25 text-nowrap">Education</td>
+                            <td class="pre-wrap">{{.Education}}</td>
+                        </tr>
+                        <tr>
+                            <td class="w-25 text-nowrap">Political Background</td>
+                            <td><a href="{{.PoliticalLink}}">{{.Political}}</a></td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
-        <h3> Personal Information </h3>
-        <div class="w-100 d-block">
-        	<table class="table table-bordered mb-0 candidate-info-table">
-        		<tbody>
-        			<tr>
-                        <td class="w-25 text-nowrap">
-                            Symbol
-                        </td>
-                        <td>
-                            <img src="symbols/{{.Id}}.JPG">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="w-25 text-nowrap">Name</td>
-                        <td>{{.Name}}</td>
-                    </tr>
-                    <tr>
-                        <td class="w-25 text-nowrap">Party</td>
-                        <td>{{.Party}}</td>
-                    </tr>
-                    <tr>
-                        <td class="w-25 text-nowrap">Age</td>
-                        <td>{{.Age}} years</td>
-                    </tr>
-                    <tr>
-                        <td class="w-25 text-nowrap">Gender</td>
-                        <td>{{.Gender}}</td>
-                    </tr>
-                    <tr>
-                        <td class="w-25 text-nowrap">Phone</td>
-                        <td>{{.Phone}}</td>
-                    </tr>
-                    <tr>
-                        <td class="w-25 text-nowrap">Email</td>
-                        <td>{{.Email}}</td>
-                    </tr>
-                    <tr>
-                        <td class="w-25 text-nowrap">Education</td>
-                        <td>{{.Education}}</td>
-                    </tr>
-                    <tr>
-                        <td class="w-25 text-nowrap">Political Background</td>
-                        <td><a href="{{.PoliticalLink}}">{{.Political}}</a></td>
-                    </tr>
-                </tbody>
-            </table>
+    </section>
+    <section class="mb-5">
+        <h4 class="mb-3">Party Information</h4>
+        <div class="card-box row mx-0">
+            <div class="py-3 col-sm-4 col-12 d-flex justify-content-center align-items-center profile-picture-container">
+                <img class="profile-picture" src="symbols/{{.Id}}.JPG" alt="{{.Party}}">
+            </div>
+
+            <div class="col-sm-8 col-12 px-0">
+                <table class="table mb-0 candidate-info-table h-100">
+                    <tbody>
+                        <tr>
+                            <td class="w-25 text-nowrap">Party</td>
+                            <td>{{.Party}}</td>
+                        </tr>
+                        <tr>
+                            <td class="w-25 text-nowrap">Symbol</td>
+                            <td>{{.PartySymbol}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
-        <h3> Financial Information </h3>
-        <div class="w-100 d-block">
-            <table class="table table-bordered mb-0 candidate-info-table">
+    </section>
+
+    <section class="mb-5">
+        <h4 class="mb-3">Financial Information</h4>
+        <div class="w-100 d-block card-box">
+            <table class="table mb-0 candidate-info-table ">
                 <tbody>
                     <tr>
-                        <td class="w-25 text-nowrap">Livelihood</td>
+                        <td class="w-25 text-nowrap ">Livelihood</td>
                         <td>{{.Livelihood}}</td>
                     </tr>
                     <tr>
-                        <td class="w-25 text-nowrap">Income Source</td>
+                        <td class="w-25 text-nowrap ">Income Source</td>
                         <td>{{.Income}}</td>
                     </tr>
                     <tr>
-                        <td class="w-25 text-nowrap">Latest ITR</td>
+                        <td class="w-25 text-nowrap ">Latest ITR</td>
                         <td>
-                        	{{.ITR18}} | {{.ITR17}} | {{.ITR16}}
+                            {{.ITR18}} | {{.ITR17}} | {{.ITR16}}
                         </td>
                     </tr>
                     <tr>
-                        <td class="w-25 text-nowrap">Total Assets</td>
+                        <td class="w-25 text-nowrap ">Total Assets</td>
                         <td>{{.Assets}}</td>
                     </tr>
                     <tr>
-                        <td class="w-25 text-nowrap">Total Liabilities</td>
+                        <td class="w-25 text-nowrap ">Total Liabilities</td>
                         <td>{{.Liabilities}}</td>
                     </tr>
                     <tr>
-                        <td class="w-25 text-nowrap">Qualification</td>
+                        <td class="w-25 text-nowrap ">Qualification</td>
                         <td>{{.Qualification}}</td>
                     </tr>
                 </tbody>
             </table>
         </div>
-        <h3> Criminal Record </h3>
-        <div class="w-100 d-block">
-            <table class="table table-bordered mb-0 candidate-info-table">
-            	<tbody>
+    </section>
+
+    <section class="mb-3">
+        <h4 class="mb-3 ">Criminal Record</h4>
+        <div class="w-100 d-block card-box">
+            <table class="table mb-0 candidate-info-table">
+                <tbody>
                     <tr>
                         <td class="w-25 text-nowrap">Pending Cases</td>
                         <td>{{.PendingCases}}</td>
                     </tr>
                     <tr>
-                        <td class="w-25 text-nowrap">Pending Cases Description</td>
-                        <td>{{.PendingDescription}}</td>
-                    </tr>
-                    <tr>
                         <td class="w-25 text-nowrap">Convictions</td>
                         <td>{{.ConvictedCases}}</td>
-                    </tr>            		
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <div class="w-100 d-block mb-3">Pending Cases Description</div>
+                            <div class="w-100 d-block pre-wrap">{{.PendingDescription}}</div>
+                        </td>
+                    </tr>
                 </tbody>
             </table>
         </div>
-        <div class="w-100 d-block">
-        	<a href="{{.Affidavit}}" target="_blank">
-        		<h3>Affidavit</h3>
-        	</a>	
-        </div>
-        <div>
-        	<span onclick="prev('{{.Id}}')">Prev</span>
-        	<span onclick="next('{{.Id}}')">Next</span>
-        </div>
+    </section>
+    <div class="w-100 d-block text-center mt-3 mb-4">
+        <a href="{{.Affidavit}}" target="_blank" class="btn btn-primary btn-lg btn-block" tabindex="-1" role="button">View candidate affidavit</a>
+    </div>
+    <div class="d-flex flex-row justify-content-between align-items-center">
+        <a class="link" onclick="prev('{{.Id}}')"><span>&laquo;</span> Previous Candidate</a>
+        <a class="link" onclick="next('{{.Id}}')">Next Candidate <span>&raquo;</span> </a>
     </div>
 </section>
 {{end}}
