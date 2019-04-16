@@ -12,6 +12,9 @@ html, body {
   font-family: 'Lato', sans-serif !important;
   height: 100%;
   min-height: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
 }
 
 .body-container {
@@ -23,7 +26,8 @@ html, body {
   background-color: var(--main-container-bg-color);
   height: 100vh;
   overflow-x: hidden;
-  overflow-y: auto;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
 }
 
 .module-container {
